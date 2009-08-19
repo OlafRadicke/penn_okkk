@@ -1,9 +1,9 @@
 
 Index-Namensräme
 
-Bibelstellen:!
+
 \index{Bibelstellen:!}
-Orte:!
+
 \index{Orte:!}
 Personen:!
 \index{Personen:!}
@@ -11,15 +11,12 @@ Personen:!
 
 Altes Testament
 Pentateuch
-
-    * 1. Mose (Genesis)
-    * 2. Mose (Exodus)
-    * 3. Mose (Levitikus)
-    * 4. Mose (Numeri)
-    * 5. Mose (Deuteronomium)
-
+    * 1. Mose
+    * 2. Mose
+    * 3. Mose
+    * 4. Mose
+    * 5. Mose
 Geschichtsbücher
-
     * Josua
     * Richter
     * Rut
@@ -36,22 +33,16 @@ Geschichtsbücher
     * Ester + Zusätze
     * 1. Makkabäer
     * 2. Makkabäer
-
 Lehrbücher
-
     * Psalmen
     * Ijob (Hiob, Job)
-    * Sprichwörter (Sprüche)
+    * Sprüche
     * Kohelet (Prediger)
     * Hoheslied
     * Weisheit Salomos (Weisheit)
     * Jesus Sirach (Ecclesiasticus)
-
-Propheten
-
-„Große“
-
-    * Jesaja (Isaias)
+Propheten „Große“
+    * Jesaja
     * Jeremia (Jeremias)
     * Klagelieder (~ Jeremias)
     * Baruch
@@ -60,8 +51,7 @@ Propheten
     * Daniel (+ Zusätze)
 
 „Kleine“ (Zwölfprophetenbuch)
-
-    * Hosea (Osee)
+    * Hosea
     * Joel
     * Amos
     * Obadja (Abdias)
@@ -73,19 +63,13 @@ Propheten
     * Haggai (Aggäus)
     * Sacharja (Zacharias)
     * Maleachi (Malachias)
-
-
-
 Evangelien
-
     * Matthäus
     * Markus
     * Lukas
     * Johannes
-
 Apostelgeschichte
 Paulusbriefe
-
     * Römer
     * 1. Korinther
     * 2. Korinther
@@ -100,15 +84,12 @@ Paulusbriefe
     * Titus
     * Philemon
     * Hebräer
-
 Katholische Briefe
-
-    * Jakobusbrief
+    * Jakobus
     * 1. Petrus
     * 2. Petrus
     * 1. Johannes
     * 2. Johannes
     * 3. Johannes
     * Judas
-
 Offenbarung
