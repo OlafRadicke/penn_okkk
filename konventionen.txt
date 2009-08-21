@@ -8,6 +8,15 @@ Index-Namensräme
 Personen:!
 \index{Personen:!}
 
+====== ERSETZUNGEN ============
+Original 	| Ersetzung
+-------------------------------
+allezeit 	| immer
+arge 		| böse
+einerlei 	| gleichen
+figürlicher 	| sinnbildlicher
+fleischlichen  	| materiellen / weltliche
+==============================
 
 Altes Testament
 Pentateuch
