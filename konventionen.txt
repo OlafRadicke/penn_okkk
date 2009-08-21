@@ -3,9 +3,7 @@ Index-Namensräme
 
 
 \index{Bibelstellen:!}
-
 \index{Orte:!}
-Personen:!
 \index{Personen:!}
 
 ====== ERSETZUNGEN ============
@@ -16,6 +14,7 @@ arge 		| böse
 einerlei 	| gleichen
 figürlicher 	| sinnbildlicher
 fleischlichen  	| materiellen / weltliche
+unbillig       	| in Irrtum
 ==============================
 
 Altes Testament
