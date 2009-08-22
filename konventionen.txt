@@ -2,20 +2,11 @@
 Index-Namensräme
 
 
-\index{Bibelstellen:!}
+\index{Bibelstellen:!)}
 \index{Orte:!}
 \index{Personen:!}
 
-====== ERSETZUNGEN ============
-Original 	| Ersetzung
--------------------------------
-allezeit 	| immer
-arge 		| böse
-einerlei 	| gleichen
-figürlicher 	| sinnbildlicher
-fleischlichen  	| materiellen / weltliche
-unbillig       	| in Irrtum
-==============================
+
 
 Altes Testament
 Pentateuch
@@ -43,7 +34,7 @@ Geschichtsbücher
     * 2. Makkabäer
 Lehrbücher
     * Psalmen
-    * Ijob (Hiob, Job)
+    * Hiob
     * Sprüche
     * Kohelet (Prediger)
     * Hoheslied
