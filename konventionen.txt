@@ -33,7 +33,7 @@ Geschichtsbücher
     * 1. Makkabäer
     * 2. Makkabäer
 Lehrbücher
-    * Psalmen
+    * Psalm
     * Hiob
     * Sprüche
     * Kohelet (Prediger)
