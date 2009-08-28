@@ -1,12 +1,6 @@
-
-Index-Namensräme
-
-
 \index{Bibelstellen:!)}
 \index{Orte:!}
 \index{Personen:!}
-
-
 
 Altes Testament
 Pentateuch
@@ -19,10 +13,10 @@ Geschichtsbücher
     * Josua
     * Richter
     * Rut
-    * 1. Samuel (1. Könige)
-    * 2. Samuel (2. Könige)
-    * 1. Könige (3. Könige)
-    * 2. Könige (4. Könige)
+    * 1. Samuel
+    * 2. Samuel
+    * 1. Könige
+    * 2. Könige
     * 1. Chronik
     * 2. Chronik
     * Esra
@@ -38,11 +32,11 @@ Lehrbücher
     * Sprüche
     * Kohelet (Prediger)
     * Hoheslied
-    * Weisheit Salomos (Weisheit)
+    * Weisheit Salomos
     * Jesus Sirach (Ecclesiasticus)
 Propheten „Große“
     * Jesaja
-    * Jeremia (Jeremias)
+    * Jeremia
     * Klagelieder (~ Jeremias)
     * Baruch
       (inkl. Brief des Jeremia)
@@ -61,7 +55,7 @@ Propheten „Große“
     * Zefanja (Sophonias)
     * Haggai (Aggäus)
     * Sacharja (Zacharias)
-    * Maleachi (Malachias)
+    * Maleachi
 Evangelien
     * Matthäus
     * Markus
