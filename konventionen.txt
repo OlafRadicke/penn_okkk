@@ -3,7 +3,7 @@
 \index{Personen:!}
 
 Maßlosigkeit\footnote{"`Üppigkeit"' erstzt durch "`Maßlosigkeit"'}
-maßlosen\index{"`üppigen"' ersetzt durch "`maßlosen"'}
+maßlosen\footnote{"`üppigen"' ersetzt durch "`maßlosen"'}
 Selbstüberwindung\footnote{"`Selbstverleugnung"' ersetzt durch "`Selbstüberwindung"'}
 
 
