@@ -2,12 +2,20 @@
 \index{Orte:!}
 \index{Personen:!}
 
-hochmütiges\footnote{"'hofartiges"` ersetzt durch "'hochmütiges"`}
-Maßlosigkeit\footnote{"`Üppigkeit"' erstzt durch "`Maßlosigkeit"'}
-maßlosen\footnote{"`üppigen"' ersetzt durch "`maßlosen"'}
-maßlose\footnote{"`üppige"' ersetzt durch "`maßlose"'}
-Selbstüberwindung\footnote{"`Selbstverleugnung"' ersetzt durch "`Selbstüberwindung"'}
+hochmütiges
+\footnote{\texttt{'hofartiges' ersetzt durch "'hochmütiges'}}
 
+Maßlosigkeit
+\footnote{\texttt{'Üppigkeit' erstzt durch 'Maßlosigkeit'}}
+maßlosen
+\footnote{\texttt{'üppigen' ersetzt durch 'maßlosen'}}
+maßlose
+\footnote{\texttt{'üppige' ersetzt durch 'maßlose'}}
+
+Selbstüberwindung
+\footnote{\texttt{'Selbstverleugnung' ersetzt durch 'Selbstüberwindung'}}
+überwinden
+\footnote{\texttt{'verleugnen' ersetzt durch 'überwinden'}}
 
 Altes Testament
 Pentateuch
