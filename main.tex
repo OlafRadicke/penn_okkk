@@ -10,6 +10,8 @@
 \setcounter{secnumdepth}{-2}
 %Gliederungstiefe im Inhaltsverzeichnis:
 \setcounter{tocdepth}{0}
+% Unterlasse es, die erste Zeile des Absatzes ein zu rücken
+\parindent 0pt
 
 \makeindex{}
 
@@ -96,8 +98,8 @@ Menschen anrichtet.
 \include{kapitel_18}
 
 \backmatter
-\part{Extras}
-
+% \part{Extras}
+\part{Anhang}
 \chapter{Erläuterung}
 % Vielleicht eine bessere Überschrift??
 
@@ -120,7 +122,7 @@ sagen währe...
 
 \include{biographie_penn}
 \include{quaker_geschichte}
-\part{Anhang}
+\include{glossar}
 
 \printindex
 % \printindex{stichwot}{Stichwörter}
