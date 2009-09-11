@@ -1,14 +1,14 @@
 \index{Bibelstellen:!)}
-Eigenliebe!
-Erkenntnis!
-Gebote!
-Gott!
-Kirche!
-Kreuz!
-Orte:!
-Personen:!
-Selbstüberwindung!
-Tempel!
+\index{Eigenliebe!}
+\index{Erkenntnis!}
+\index{Gebote!}
+\index{Gott!}
+\index{Kirche!}
+\index{Kreuz!}
+\index{Orte:!}
+\index{Personen:!}
+\index{Selbstüberwindung!}
+\index{Tempel!}
 
 hochmütiges
 \footnote{\texttt{'hofartiges' ersetzt durch "'hochmütiges'}}

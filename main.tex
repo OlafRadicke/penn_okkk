@@ -10,6 +10,8 @@
 \setcounter{secnumdepth}{-2}
 %Gliederungstiefe im Inhaltsverzeichnis:
 \setcounter{tocdepth}{0}
+% Unterlasse es, die erste Zeile des Absatzes ein zu rücken
+\parindent 0pt
 
 \makeindex{}
 
@@ -31,7 +33,14 @@ Von
 }
 
 \title{Ohne Kreuz keine Krone}
-\date{Studienausgabe \\ --- Version 1.0 --- \\ \today}
+\date{
+Studienausgabe
+\\ --- Version 1.0 ---
+\\ \today
+\bigskip
+\\ Herrausgeber
+\\Claus Bernet \& Olaf Radicke
+}
 
 \maketitle
 
@@ -96,8 +105,31 @@ Menschen anrichtet.
 \include{kapitel_18}
 
 \backmatter
-\include{extras}
+% \part{Extras}
 \part{Anhang}
+\chapter{Erläuterung}
+% Vielleicht eine bessere Überschrift??
+
+Beim Lesen des Werkes \textit{Ohne Kreuz keine Krone} wird dem Leser nicht
+entgangen sein, das daraus eine ganz andere Zeit spricht. Um das Werk und seine
+Aussage besser einordnen zu können, haben wir uns entschlossen, ein paar
+erläuternde Kapitel an zu fügen. Zunächst wird die Entstehung und Wirkung des
+Werk erläutert (\textit{Seite \pageref{ref:zum_werk}}), dann wird auf den Autor
+W.Penn eingegangen (\textit{Seite \pageref{ref:zum_autor_penn}}) und zum Schluss
+wird auf die Entwicklung des Quakertums seid seines Bestehen
+eingegangen(\textit{Seite . \pageref{ref:entwiklung_quakertum}}). Alle Kapitel
+sind in sich abgeschlossen. Das heisst, sie können in beliebiger Reihenfolge
+gelesen werden (oder auch gar nicht).
+
+\chapter{Zum Werk}\label{ref:zum_werk}
+% Vielleicht eine bessere Überschrift??
+
+Was noch zur Entstehung, Wirkung und Verbreitung von "`no cross no crown"' zu
+sagen währe...
+
+\include{biographie_penn}
+\include{quaker_geschichte}
+\include{glossar}
 
 \printindex
 % \printindex{stichwot}{Stichwörter}
