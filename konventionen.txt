@@ -11,7 +11,7 @@
 \index{Tempel!}
 
 hochmütiges
-\footnote{\texttt{'hofartiges' ersetzt durch "'hochmütiges'}}
+\footnote{\texttt{'hofartiges' ersetzt durch 'hochmütiges'}}
 
 Maßlosigkeit
 \footnote{\texttt{'Üppigkeit' erstzt durch 'Maßlosigkeit'}}
