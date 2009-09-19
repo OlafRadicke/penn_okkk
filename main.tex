@@ -19,6 +19,8 @@
 \parindent 0pt
 
 \makeindex{}
+% Der Befehl zum erstellen des Indexes lautet
+% makeindex -g -s ./main.ist ./main.idx
 
 
 \begin{document}
@@ -38,12 +40,10 @@ Von
 \title{Ohne Kreuz keine Krone}
 \date{
 \vspace{3cm}
-Studienausgabe
-\\--- Version 1.0 ---
-\\ München, \today
-\vspace{3cm}
-\\ Herausgeber
-\\Claus Bernet \& Olaf Radicke
+Studienausgabe\\
+\vfill
+Herausgeber \\
+Claus Bernet \& Olaf Radicke
 }
 
 \maketitle
@@ -140,11 +140,37 @@ sagen währe...
 \include{glossar}
 \include{uebersicht}
 
+\addcontentsline{toc}{chapter}{Index}
 \printindex
 % \printindex{stichwot}{Stichwörter}
 % \printindex{person}{Personen}
 % \printindex{ort}{Orte}
 
 
+\pagebreak 
+\vspace{\fill}
+
+\fbox{
+\parbox{9cm}{
+\addcontentsline{toc}{chapter}{Impressum}
+\textbf{Impressum:}\\
+\medskip
+
+Herrausgegeben:\\
+\copyright{} Olaf Radicke, \copyright{} Claus Bernet\\
+Alle Rechte vorbehalten\\
+\medskip
+
+München, \today \\
+Version 1.0 \\
+\medskip
+
+Herstellung und Verlag:\\
+Books on Demand GmbH, Norderstedt\\
+
+
+ISBN: 978-3-8391-2608-0
+}}
+\pagebreak 
 
 \end{document}
