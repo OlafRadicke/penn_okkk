@@ -17,6 +17,15 @@
 \setcounter{tocdepth}{0}
 % Unterlasse es, die erste Zeile des Absatzes ein zu rücken
 \parindent 0pt
+% Einige Overfull Boxes vermeiden
+\tolerance 1414
+\hbadness 1414
+\emergencystretch 1.5em
+\hfuzz 0.3pt
+\widowpenalty=10000
+\vfuzz \hfuzz
+\raggedbottom
+
 
 \makeindex{}
 % Der Befehl zum erstellen des Indexes lautet
@@ -68,28 +77,28 @@ Claus Bernet \& Olaf Radicke
 \begin{description}
 \item[1.und 2. Kapitel] Von der Notwendigkeit, das Kreuz Christi täglich zu
 tragen.
-\dotfill \textit{Seite \pageref{kap1} und  \pageref{kap2}}\\
+\dotfill \textit{Seite~\pageref{kap1}~und~\pageref{kap2}}\\
 \item[3. Kapitel] Erklärung des Kreuzes Christi; worin es besteht. etc.
-\dotfill \textit{Seite \pageref{kap3}}\\
+\dotfill \textit{Seite~\pageref{kap3}}\\
 \item[4. Kapitel] Von den großen Wirkungen des Kreuzes.
-\dotfill \textit{Seite \pageref{kap4}}\\
+\dotfill \textit{Seite~\pageref{kap4}}\\
 \item[5.und 6. Kapitel] Von der unerlaubten Selbstheit in der Religion und
 Modalität.
-\dotfill \textit{Seite \pageref{kap5} und \pageref{kap6}}\\
+\dotfill \textit{Seite~\pageref{kap5}~und~\pageref{kap6}}\\
 \item[7. bis 12. Kapitel] Vom Stolze, als der ersten Hauptleidenschaft des
 Menschen; dessen Ursprung, nähere Bestimmung und Unterscheidung.
-\dotfill \textit{Seite \pageref{kap7}, \pageref{kap8}, \pageref{kap9}, \pageref{kap10}, \pageref{kap11} und \pageref{kap12}}\\
+\dotfill \textit{Seite~\pageref{kap7},~\pageref{kap8},~\pageref{kap9}, \pageref{kap10},~\pageref{kap11}~und~\pageref{kap12}}\\
 \item[13. Kapitel] Von der Gier, als der zweiten Hauptleidenschaft; nähere
 Bestimmung und Unterscheidung desselben.
-\dotfill \textit{Seite \pageref{kap13}}\\
+\dotfill \textit{Seite~\pageref{kap13}}\\
 \item[14. bis 18. Kapitel] Von der Verschwendung
 \footnote{\texttt{In Ursprungstext stet
 das Wort 'Üppigkeit'. Das Wort wird in der heutigen Verwendung anders
 gebraucht und wurde desshalb - der verständlichkeit halber - durch
 'Verschwendung' ersetzt}}; worin sie besteht, und was für Unheil sie unter den
 Menschen anrichtet.
-\dotfill \textit{Seite \pageref{kap14}, \pageref{kap15}, \pageref{kap16},
-\pageref{kap17} und \pageref{kap18}}\\
+\dotfill \textit{Seite~\pageref{kap14},~\pageref{kap15},~\pageref{kap16},
+\pageref{kap17}~und~\pageref{kap18}}\\
 \end{description}
 
 \include{kapitel_01}
@@ -121,10 +130,10 @@ Beim Lesen des Werkes \textit{Ohne Kreuz keine Krone} wird dem Leser nicht
 entgangen sein, das daraus eine ganz andere Zeit spricht. Um das Werk und seine
 Aussage besser einordnen zu können, haben wir uns entschlossen, ein paar
 erläuternde Kapitel an zu fügen. Zunächst wird die Entstehung und Wirkung des
-Werk erläutert (\textit{Seite \pageref{ref:zum_werk}}), dann wird auf den Autor
-W.Penn eingegangen (\textit{Seite \pageref{ref:zum_autor_penn}}) und zum Schluss
+Werk erläutert (\textit{Seite~\pageref{ref:zum_werk}}), dann wird auf den Autor
+W.Penn eingegangen (\textit{Seite~\pageref{ref:zum_autor_penn}}) und zum Schluss
 wird auf die Entwicklung des Quakertums seid seines Bestehen
-eingegangen(\textit{Seite . \pageref{ref:entwicklung_quakertum}}). Alle Kapitel
+eingegangen(\textit{Seite~\pageref{ref:entwicklung_quakertum}}). Alle Kapitel
 sind in sich abgeschlossen. Das heisst, sie können in beliebiger Reihenfolge
 gelesen werden (oder auch gar nicht).
 
