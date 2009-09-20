@@ -17,6 +17,15 @@
 \setcounter{tocdepth}{0}
 % Unterlasse es, die erste Zeile des Absatzes ein zu rücken
 \parindent 0pt
+% Einige Overfull Boxes vermeiden
+\tolerance 1414
+\hbadness 1414
+\emergencystretch 1.5em
+\hfuzz 0.3pt
+\widowpenalty=10000
+\vfuzz \hfuzz
+\raggedbottom
+
 
 \makeindex{}
 % Der Befehl zum erstellen des Indexes lautet
