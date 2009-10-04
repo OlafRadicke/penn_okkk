@@ -1,4 +1,4 @@
-quote '+'    % + anstelle von "
+% quote '+'    % + anstelle von "
 
-delim_0 "\\dotfill "    % Eintrag..........2 statt Eintag, 2
-delim_1 "\\dotfill "
+delim_0 "~~\\dotfill"    % Eintrag..........2 statt Eintag, 2
+delim_1 "~~\\dotfill"
