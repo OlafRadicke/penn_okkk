@@ -1,23 +1,27 @@
 === Klappentext: ===
 
-"Ohne Kreuz keine Krone" gehört zu den wichtigsten Quaker-Texten und gilt als Weltliteratur 
-und kann darüberhinaus als Grundlagentext des Quäkertums betrachtet werden. Er behandelt die Zentralen Themen
-des frühen Quakertums und zeigt die unkonventionellen Ansichten der
-damals noch neuen Bewegung auf. Dabei schlägt W. Penn einen eindringlichen
-bisweilen sogar polemischen Ton an um den Leser für seiner Position ein zu nehmen.
-Bei alle dem werden zahllose Bibelstellen bemüht, um die Richtigkeit der Aussagen
-zu belegen. Bekannte und weniger bekannte Bibelstellen erscheinen durch W. Penns
-Auslegung zum Teil in ungewohnten Licht mit interessanten Aspekten. Daraus
-resultiert dann seine harsche Kritik an dem (bis heute) herrschenden Soziale und
-Politische System.
+"Ohne Kreuz keine Krone" gehört zu den wichtigsten Quaker-Texten. Das Buch zählt zur Weltliteratur 
+und kann darüber hinaus als Grundlagentext des Quäkertums
+%also Quäkertum ist ok., aber Quäker nicht? Wir müssten hier "Quakertum" schreiben.
+ betrachtet werden. Er behandelt die zentralen Themen
+des frühen Quakertums 
+%genau! hier steht es richtig!
+und zeigt die unkonventionellen Ansichten der
+damals noch neuen Bewegung auf. Dabei schlägt der Verfasser William Penn einen eindringlichen
+bisweilen sogar polemischen Ton an, um den Leser für seiner Position einzunehmen.
+Dabei werden zahllose Bibelstellen bemüht, um die Richtigkeit der Aussagen
+zu belegen. Bekannte und weniger bekannte Bibelstellen erscheinen durch Penns
+Auslegung zum Teil in ungewohntem Licht mit interessanten Aspekten. Daraus
+resultiert dann seine harsche Kritik an dem (bis heute) herrschenden sozialen und
+politischen Zuständen.
 
 Hier liegt nun eine überarbeitet Wiederauflage einer Übersetzung von 1825 vor.
-Der Text wurde stark überarbeitet und mit erklärenden Texte ergänzt. Es handelt
+Der Text wurde stark überarbeitet und mit erklärenden Texten ergänzt. Es handelt
 sich um eine Studienausgabe, in der der Leser nicht mit dem Urtext alleine
 gelassen wird,
 sondern verschiedenen Hilfestellungen an die Hand bekommt, sich den Text auf
-verschiedenen Arten zu nähern und zu erforschen. Zahlreiche Fussnoten geben
-Hinweise und Informationen. Begleittexte informieren über den Autor W. Penn,
+verschiedene Arten zu nähern und zu erforschen. Zahlreiche Fußnoten geben
+Hinweise und Informationen. Begleittexte informieren über den Penn,
 die Quakergeschichte und die Entstehung des Textes.
 
 == Buchhandelskatalog ==
@@ -29,15 +33,16 @@ Tragen Sie ggf. jeweils einen Autorenkurztext (Autorenvita) ein:
 
 Penn, William:
 
-Lebte von 1644 bis 1718 und war eine der Schillerndsten Figuren des Frühen Quakertums. Er prägte mit seinem
-"Heiligen Experiment" nicht nur das Quakertum sonder bis Heute die politische Kultur der USA. Er war Visionär und Praktiker gleichermassen.
+Lebte von 1644 bis 1718 und war eine der schillerndsten Figuren des frühen Quakertums. Er prägte mit seinem
+"Heiligen Experiment" nicht nur das Quakertum, sonder bis heute die politische Kultur der USA. 
+Er war Visionär und Praktiker gleichermaßen.
 
 
 Olaf Radicke:
 
-Quaker, Heilerziehungspfleger, Autodidakt und Intusiast. Jahrgang 1971. Geboren
+Quaker, Heilerziehungspfleger, Autodidakt und Enthusiast. Jahrgang 1971. Geboren
 in West-Berlin. Lebt in München.
 
 Claus Bernet:
 
-Historiker und Sozialbedagoge. Geborien in ??? Jahrgang ??? Lebt in Berlin.
+Historiker und Sozialpädagoge. Lebt und arbeitet in Berlin.

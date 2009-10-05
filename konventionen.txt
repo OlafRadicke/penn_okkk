@@ -14,7 +14,7 @@ hochmütiges
 \footnote{\texttt{'hofartiges' ersetzt durch 'hochmütiges'}}
 
 Maßlosigkeit
-\footnote{\texttt{'Üppigkeit' erstzt durch 'Maßlosigkeit'}}
+\footnote{\texttt{'Üppigkeit' ersetzt durch 'Maßlosigkeit'}}
 maßlosen
 \footnote{\texttt{'üppigen' ersetzt durch 'maßlosen'}}
 maßlose
