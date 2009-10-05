@@ -67,7 +67,6 @@ Claus Bernet \& Olaf Radicke
 \mainmatter
 
 \include{ueber} % Toni Korrektur
-\include{claus_vita}
 
 
 %Kapitelnummerierung für Hauptteil ausschalten:
@@ -161,12 +160,16 @@ gelesen werden (oder auch gar nicht).
 
 \include{glossar}
 
-\addcontentsline{toc}{chapter}{Index}
+\addcontentsline{toc}{chapter}{\protect\numberline{11}{Index}}
+% \addcontentsline{toc}{chapter}{Index}
 \printindex
 % \printindex{stichwot}{Stichwörter}
 % \printindex{person}{Personen}
 % \printindex{ort}{Orte}
 
+
+\addcontentsline{toc}{chapter}{\protect\numberline{12}{Über Claus Bernet}}
+\include{claus_vita}
 
 \pagebreak 
 \vspace{\fill}
@@ -177,7 +180,7 @@ gelesen werden (oder auch gar nicht).
 \textbf{Impressum:}\\
 \medskip
 
-Herrausgegeben:\\
+Herausgeber:\\
 \copyright{} Olaf Radicke, \copyright{} Claus Bernet\\
 Alle Rechte vorbehalten\\
 \medskip
