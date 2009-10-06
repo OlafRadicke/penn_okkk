@@ -3,132 +3,178 @@
 Brigitte Radicke
 Hohenzollerndamm208
 10717 Berlin
----
+---[1]
 1 X
 Thomas ter Haseborg
 Christuszentrum Itzehoe
 Dorfstraße 20
 25524 Itzehoe
----
+---[2]
 1 X
 Brigitta
----
+---[3]
 Boris
----
+---[4]
 Markus Rose 
 Hoffnung Berlin - Christliche Gemeinde e.V.
 Stromstraße 23
 10551 Berlin
----
+---[5]
 1 X
 www.jesus.de
 Bundes-Verlag GmbH
 Bodenborn 43
 D-58452 Witten
----
+---[6]
 1 X
 Peter Aschoff
 Anna-Rosenthal-Weg 4
 91052 Erlangen
----
+---[7]
 1 X
 Annette Fricke
 Heckenweg 12
 44534 Lünen
----
+---[8]
 * Nancy Kaufmann
 ??? Chicago
----
+---[9]
 1 X
 Horst Konopatzky
 Wandlitzstr. 39
 101318 Berlin
----
+---[10]
 1 X
 Eberhard Küttner
 Hainstr. 140
 09130 Chemnitz
----
+---[11]
 1 X
 Karin Eschenhagen
 Dillenburger Str. 58i
 14199 Berlin
----
+---[12]
 10 X
 Hartmut Habeker
 Gronsdorfer Str. 22
 85540 Haar
----
+---[13]
 1 X
 Martina Basso, Pastorin
 Promenadenstrasse 15b
 12207 Berlin
----
+---[14]
 1 X
 DIE BRÜCKE - Täuferisch-mennonitische Gemeindezeitschrift
 Benji Wiebe
 Kastanienweg 19
 76297 Stutensee
----
+---[15]
 1 X
 Toni Schwarz
 Hans-Meilch-Str 8
 81543 München
----
+---[16]
 1 X
 Prof. Dr. theol. Dr. phil. Thomas Schirrmacher
 Friedrichstr. 38
 53111 Bonn
----
+---[17]
 1 X
 * Tante Berbel
----
+---[18]
 1 X
 Redaktion "Quäker"
 Davorka Lovrekovic
 Neue Straße 47
 21073 Hamburg
----
+---[19]
 1 X
 Andreas Paul Markert
 Pascalstr.4
 10587 Berlin
----
+---[20]
 1 X
 In-Sun Kim
 Dong Heng Interkulturelle Hospiz-Verein e.V.
 Sigmaringerstr. 1 1.OG
 10713 Berlin
----
+---[21]
 1 X
 Heiko Lorenz
 Kluckstraße 36
 10785 Berlin
----
+---[22]
 1 X
 Katharina Best
 Sigmaringer Str. 34
 10713 Berlin
----
+---[23]
 1 X
 Klaus Matußek
 Dielingsgrund 20a
 12305 Berlin
----
+---[24]
 1 X
 Mauro Minsinger
 Erkelenzdamm 1
 10999 Berlin
----
+---[25]
 1 X
 Mike Zipser
 20, Rue Dugal.Rapp
 67000 Strasboure
----
+---[26]
 1 X
 elli pop media
 Christa Freisewinkel
 Diplom Kommunikationswirtin (UdK Berlin)
 Weserstraße 87
 12059 Berlin
+---[27]
+1 X
+chrismon-Redaktion
+Postfach 500550
+60394 Frankfurt am Main
+---[28]
+1 X
+Bianca Gapsch
+Ostseestraße 101
+10409 Berlin
+---[29]
+1 X
+Ellen Wolter
+Wiesenerstr. 2
+13357 Berlin
+---[30]
+1 X
+Armin Dittrich
+Wolfsgartenstr. 39
+12555 Berlin - Köpenick
+---[31]
+1 X
+Bettina Krüger
+Lohengrin Str.1
+14109 Berlin
+---[32]
+1 X
+Joachim Larek
+Elsenstr. 38
+12435 Berlin
+---[33]
+1 X
+Hermann Probst
+Landwehrstr. 11
+80336 München
+---[34]
+1 X
+Jürgen & Elisabeth Rudolph-Moser
+Thierschstr. 21
+80538 München
+---[35]
+1 X
+Juri Frantsuzov
+Fennstraße 35
+13353 Berlin
+---[36]
 ========== CLAUS ===========
