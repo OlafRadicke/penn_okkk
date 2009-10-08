@@ -11,7 +11,9 @@ Dorfstraße 20
 25524 Itzehoe
 ---[2]
 1 X
-Brigitta
+Brigitta Kukla
+Heckerdamm 218
+13627 Berlin
 ---[3]
 Boris
 ---[4]
@@ -81,7 +83,9 @@ Friedrichstr. 38
 53111 Bonn
 ---[17]
 1 X
-* Tante Berbel
+Bärbel Henschel
+Keithstr. 3A
+12307 Berlin
 ---[18]
 1 X
 Redaktion "Quäker"
@@ -178,5 +182,9 @@ Fennstraße 35
 13353 Berlin
 ---[36]
 Renate Jercho
----[36]
+---[37]
+Hans-Peter Radicke
+Rustweg 1
+13587 Berlin
+---[37]
 ========== CLAUS ===========
