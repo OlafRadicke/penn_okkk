@@ -246,4 +246,36 @@ Spitalerstraße 8
 Buchladen St. Nikolai
 Rathausstr. 17
 10178 Berlin
+---
+David Hugendick (Literatur),
+ZEIT ONLINE GmbH
+20079 Hamburg
+---
+Frankfurter Allgemeine Sonntagszeitung
+60267 Frankfurt am Main
+---
+Süddeutsche Zeitung
+Hultschiner Straße 8
+81677 München
+---
+Frankfurter Rundschau
+Karl-Gerold-Platz 1
+60594 Frankfurt am Main
+---
+Tageszeitung junge Welt
+    Redaktion
+    Torstraße 6
+    10119 Berlin
+---
+"Perlentaucher"
+---
+Bayard Media GmbH & Co KG
+Redaktion G-Geschichte
+Böheimstraße 8
+86153 Augsburg
+---
+Museum im Schloss Bad Pyrmont
+Schlossstraße 13
+31812 Bad Pyrmont
+
 ========== CLAUS ===========
