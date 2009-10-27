@@ -1,0 +1,463 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><!-- templateordner fileadmin/bod_de/forms -->
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2008 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+	<link rel="stylesheet" type="text/css" href="autorenvertrag-Dateien/stylesheet_2ee6a79ad2.css">
+	<link rel="stylesheet" type="text/css" href="autorenvertrag-Dateien/bod_mybod.css">
+	<title>BoD - Books on Demand GmbH: Autorenvertrag Druckversion</title>
+	<meta name="generator" content="TYPO3 4.2 CMS">
+	<meta name="language" content="de">
+	<meta name="author" content="weikatec.de">
+	<meta name="description" content="Books on Demand - BoD realisiert ihre Buchideen, schnell, einfach, g&amp;uuml;nstig und risikolos. BoD nutzt die Technologie des digitalen Buchdruckes schon ab 1 Exemplar und bietet die Logistik f&amp;uuml;r den fl&amp;auml;chendeckenden Vertrieb. Und die weltweite Ver&amp;ouml;ffentlichung Ihres Buches ist Realit&amp;auml;t!">
+	<meta name="keywords" content="books on demand,bod,buch,b&amp;uuml;cher,buchhandel,buchh&amp;auml;ndler,druckerei,verlag,verlegen,publizieren,ver&amp;ouml;ffentlichen,autor,autorin,autorenforum,vergriffen,books-on-demand,druck,drucken,schriftsteller,literatur,buchdruck,digitaldruck,dissertationen,drucktechnologie,druckvorlage,buchkatalog,just-in-time,kleinstauflage,kleinauflage,literaturagenten,printing on demand,publishing on demand,belletristik,gedichte,fachbuch,erz&amp;auml;hlungen,heimatliteratur,jugendbuch,kinderbuch,kriegserinnerungen,lyrik,regionalia,regionalliteratur,romane,schreiben,textdatei,wissenschaft,diplomarbeiten,diplomarbeit,hausarbeiten,hausarbeit">
+	<meta name="robots" content="index, follow">
+	<meta name="HTTP-EQUIV" content="text/html; charset=windows-1252">
+	<meta name="copyright" content="Books on Demand GmbH">
+	<script type="text/javascript" src="autorenvertrag-Dateien/javascript_93077bb238.js"></script>
+
+</head><body>
+
+ 
+
+<style>.popupLink {
+	COLOR: red; outline: none
+}
+.popup {
+	BACKGROUND-COLOR: yellow; BORDER-BOTTOM: black 3px solid; BORDER-LEFT: black 1px solid; BORDER-RIGHT: black 3px solid; BORDER-TOP: black 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px; POSITION: absolute; VISIBILITY: hidden; Z-INDEX: 10; LAYER-BACKGROUND-COLOR: yellow
+}
+</style>
+<script language="JavaScript1.2">
+
+var xOffset = 30;
+var yOffset = -5;
+
+function showPopup (targetObjectId, eventObj, x, y ) {
+    if(eventObj) {
+	// hide any currently-visible popups
+	hideCurrentPopup();
+	// stop event from bubbling up any farther
+	eventObj.cancelBubble = true;
+	// move popup div to current cursor position 
+	// (add scrollTop to account for scrolling for IE)
+//	var newXCoordinate = (eventObj.pageX)?eventObj.pageX + xOffset:eventObj.x + xOffset + ((document.body.scrollLeft)?document.body.scrollLeft:0);
+//	var newYCoordinate = (eventObj.pageY)?eventObj.pageY + yOffset:eventObj.y + yOffset + ((document.body.scrollTop)?document.body.scrollTop:0);
+	var newXCoordinate = x;
+	var newYCoordinate = y;
+	moveObject(targetObjectId, newXCoordinate, newYCoordinate);
+	// and make it visible
+	if( changeObjectVisibility(targetObjectId, 'visible') ) {
+	    // if we successfully showed the popup
+	    // store its Id on a globally-accessible object
+	    window.currentlyVisiblePopup = targetObjectId;
+	    return true;
+	} else {
+	    // we couldn't show the popup, boo hoo!
+	    return false;
+	}
+    } else {
+	// there was no event object, so we won't be able to position anything, so give up
+	return false;
+    }
+} // showPopup
+
+function hideCurrentPopup() {
+    // note: we've stored the currently-visible popup on the global object window.currentlyVisiblePopup
+    if(window.currentlyVisiblePopup) {
+	changeObjectVisibility(window.currentlyVisiblePopup, 'hidden');
+	window.currentlyVisiblePopup = false;
+    }
+} // hideCurrentPopup
+
+
+
+// ***********************
+// hacks and workarounds *
+// ***********************
+
+// initialize hacks whenever the page loads
+window.onload = initializeHacks;
+
+// setup an event handler to hide popups for generic clicks on the document
+document.onclick = hideCurrentPopup;
+
+function initializeHacks() {
+    // this ugly little hack resizes a blank div to make sure you can click
+    // anywhere in the window for Mac MSIE 5
+    if ((navigator.appVersion.indexOf('MSIE 5') != -1) 
+	&& (navigator.platform.indexOf('Mac') != -1)
+	&& getStyleObject('blankDiv')) {
+	window.onresize = explorerMacResizeFix;
+    }
+    resizeBlankDiv();
+    // this next function creates a placeholder object for older browsers
+    createFakeEventObj();
+}
+
+function createFakeEventObj() {
+    // create a fake event object for older browsers to avoid errors in function call
+    // when we need to pass the event object to functions
+    if (!window.event) {
+	window.event = false;
+    }
+} // createFakeEventObj
+
+function resizeBlankDiv() {
+    // resize blank placeholder div so IE 5 on mac will get all clicks in window
+    if ((navigator.appVersion.indexOf('MSIE 5') != -1) 
+	&& (navigator.platform.indexOf('Mac') != -1)
+	&& getStyleObject('blankDiv')) {
+	getStyleObject('blankDiv').width = document.body.clientWidth - 20;
+	getStyleObject('blankDiv').height = document.body.clientHeight - 20;
+    }
+}
+
+function explorerMacResizeFix () {
+    location.reload(false);
+}
+
+function getStyleObject(objectId) {
+    // cross-browser function to get an object's style object given its id
+    if(document.getElementById && document.getElementById(objectId)) {
+	// W3C DOM
+	return document.getElementById(objectId).style;
+    } else if (document.all && document.all(objectId)) {
+	// MSIE 4 DOM
+	return document.all(objectId).style;
+    } else if (document.layers && document.layers[objectId]) {
+	// NN 4 DOM.. note: this won't find nested layers
+	return document.layers[objectId];
+    } else {
+	return false;
+    }
+} // getStyleObject
+
+function changeObjectVisibility(objectId, newVisibility) {
+    // get a reference to the cross-browser style object and make sure the object exists
+    var styleObject = getStyleObject(objectId);
+    if(styleObject) {
+	styleObject.visibility = newVisibility;
+	return true;
+    } else {
+	// we couldn't find the object, so we can't change its visibility
+	return false;
+    }
+} // changeObjectVisibility
+
+function moveObject(objectId, newXCoordinate, newYCoordinate) {
+    // get a reference to the cross-browser style object and make sure the object exists
+    var styleObject = getStyleObject(objectId);
+    if(styleObject) {
+	styleObject.left = newXCoordinate;
+	styleObject.top = newYCoordinate;
+	return true;
+    } else {
+	// we couldn't find the object, so we can't very well move it
+	return false;
+    }
+} // moveObject
+
+
+</script>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td valign="top" width="5%"><img alt="" src="autorenvertrag-Dateien/clear.gif" border="0" height="18" width="1"></td>
+    <td valign="top" width="90%">
+    
+    
+
+	<!--  CONTENT ELEMENT, uid:10696/list [begin] -->
+		<a id="c10696"></a>
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "mybod_buchprojekt", plugin "tx_mybodbuchprojekt_pi1"
+
+	-->
+	<div class="tx-mybodbuchprojekt-pi1">
+		
+
+
+<p class="medium" align="left">
+<font class="headlinebig">Autorenvertrag</font><br><br>
+
+Zwischen der Books on Demand GmbH, Gutenbergring 53, 22848 Norderstedt - nachfolgend <b>BoD</b> -  und
+<br><br>
+
+Olaf Radicke <br>
+Ludwig-Richter-Str.11<br>
+DE 80687 München<br>
+<br>
+- nachfolgend <b>Autor</b> -<br><br>
+
+wird folgender Vertrag geschlossen:
+</p>
+
+
+<p class="headline">§ 1 Geltungsbereich</p>
+<p class="medium">Die in diesem Autorenvertrag aufgeführten Rechte und
+Pflichten gelten für alle nachfolgenden zwischen dem Autor und BoD
+geschlossenen Buch- und eBook-Verträge (nachfolgend einheitlich als
+Buchvertrag bezeichnet), soweit nicht in diesen etwas anderes
+vereinbart ist. Werke des Autors, für die ein Buchvertrag abgeschlossen
+wird, werden nachfolgend als BoD-Titel bezeichnet.</p>
+
+<p class="headline">§ 2 Nutzungs- und Verbreitungsrechte</p>
+<ol class="medium">
+<li>Der Autor erklärt, dass er über die nachfolgend aufgeführten Rechte
+verfügt und räumt BoD alle zur Herstellung und für den räumlich
+unbegrenzten Vertrieb der BoD-Titel notwendigen Rechte exklusiv ein,
+insbesondere: <ol type="a">
+<li>das Vervielfältigungs-, Vermarktungs- und Verbreitungsrecht für die BoD-Titel als Druckwerk und elektronische Ausführung, 
+</li><li>das Recht zur Aufzeichnung, Speicherung und Übertragung des BoDTitels in maschinenlesbarer, insbesondere elektronischer Form, 
+</li><li>das Recht zur Be- und Verarbeitung zu einer elektronischen
+Druckvorlage ("Druckmaster") sowie zur Konvertierung des BoD-Titels für
+eine elektronische Ausführung;
+</li><li>das Recht, eine Anpassung auf heutige und künftige Lesesysteme vorzunehmen;
+</li><li>das Recht zur Aufnahme des BoD-Titels in die BoD-Datenbanken
+und in Katalogdatenbanken von Buchgroßhändlern und anderer
+Distributoren während der Laufzeit dieses Vertrages,
+</li><li>das Recht zur Verbreitung von Textteilen des BoD-Titels als Leseprobe,
+</li><li>sofern der Autor eine ISBN von BoD übernimmt, zum Zweck der
+Zusammenarbeit mit der Verwertungsgesellschaft VG Wort alle
+Verwertungs-, Nutzungs- und sonstigen Rechte, die die VG Wort
+treuhänderisch wahrnimmt, </li><li>das Recht, die vorstehenden Rechte sowohl im eigenen Verlag
+als auch durch entgeltliche oder unentgeltliche (auch teilweise)
+Vergabe von entsprechenden Rechten an Dritte im In- und Ausland ganz
+oder teilweise zu vergeben (Unterlizenz).
+</li><li>Der Autor räumt BoD sämtliche vorstehend aufgeführten Rechte auch für derzeit noch unbekannte Nutzungsformen ein. 
+</li></ol>
+</li>
+<li>Soweit die Vorlagen des Autors Sonderschriftarten, Abbildungen
+und/oder Fotos enthalten, an denen keine Nutzungsrechte bestehen, holt
+der Autor vor Durchführung des Vertrages auf seine Kosten eine etwaig
+erforderliche Genehmigung des Urhebers für die Nutzung der
+Sonderschriftarten, Abbildungen und/oder Fotos durch BoD und deren
+Kooperationspartner ein.
+</li><li>BoD behält sich das Recht vor, Manuskripte ohne Angabe von Gründen abzulehnen.
+</li><li>Der Autor räumt BoD das Recht zur angemessenen Darstellung in
+der Werbung ein, sowohl in der Werbung für das Buch als auch in der
+Werbung für BoD.
+</li></ol> 
+
+
+<p class="headline">§ 3 Leistungen der BoD</p>
+<ol class="medium">
+<li>BoD stellt für den Autor Druckwerke und elektronische Ausführungen (z. B. ebooks) auf  Bestellung her. 
+</li><li>BoD verpflichtet sich gegenüber dem Autor zur Auslieferung der
+BoD-Titel an Buchgroß- und sonstige Händler (Handelsbestellungen) sowie
+an den Autor (Eigenbestellung), sofern eine Bestellung vorliegt.
+</li><li>Zu den in diesem Vertrag genannten Zwecken speichert BoD den
+elektronischen Druckmaster und eine etwaige elektronische Ausführung
+während der Vertragslaufzeit und stellt sicher, dass der Druckmaster
+für das Drucken von Büchern nur nach Maßgabe dieses Autorenvertrages
+sowie des den jeweiligen BoD-Titel betreffenden Buchvertrages verwendet
+wird. Entsprechendes gilt für die Verwendung einer etwaigen
+elektronischen Ausführung.
+</li><li>BoD liefert dem Autor Quartalsstatistiken über die Anzahl der
+aufgrund einer Handelsbestellung hergestellten Exemplare pro BoD-Titel
+und rechnet vierteljährlich über die hergestellten und ausgelieferten
+BoD-Titel ab.
+</li><li>BoD nimmt für den Autor die Titelmeldung an das VLB
+(Verzeichnis lieferbarer Bücher) vor, wenn der Autor eine ISBN über BoD
+erhalten hat. Änderungen der Titeldaten sind BoD ggf. schriftlich zu
+melden. Sofern der Autor Änderungen nicht meldet, werden die Titeldaten
+für die Folgeausgaben des VLB unverändert übernommen.
+</li><li>Bei Vertragsbeendigung werden der Druckmaster und die
+elektronischen Ausführungen aus den Systemen von BoD zum
+nächstmöglichen Zeitpunkt, spätestens jedoch binnen zwei Monaten
+gelöscht. Ein Recht auf Herausgabe des von BoD erstellten Druckmasters
+oder einer Kopie, bzw. der elektronischen Ausführung oder einer Kopie,
+besteht nicht.
+</li></ol>
+
+<p class="headline">§ 4  Ladenpreis, Buchhandelsrabatte</p>
+<ol class="medium">
+<li>Der Autor setzt den gebundenen bzw. unverbindlich empfohlenen
+Endkundenpreis seines Druckwerks inkl. der jeweils geltenden
+gesetzlichen MwSt. für den Vertrieb in Ländern, in denen Euro oder
+Schweizer Franken gesetzliches Zahlungsmittel sind, im Buchvertrag
+selbst fest. Gleiches gilt, wenn der Autor eine elektronische
+Ausführung in Auftrag gibt. </li><li>Für Märkte, in denen weder Euro noch Schweizer Franken
+gesetzliches Zahlungsmittel sind, legt BoD den unverbindlich
+empfohlenen Verkaufspreis (UVP) oder &#8211; sofern ggf. gesetzlich
+vorgeschrieben &#8211; den jeweiligen nationalen gebundenen Ladenpreis für
+den Vertrieb des Titels in Anlehnung an den vom Autor in Euro
+festgesetzten Ladenpreis unter Berücksichtigung der jeweiligen
+landesspezifischen Gegebenheiten (Druckkosten, Vertriebskosten etc.)
+fest. </li><li>BoD legt die Buchhandelsrabatte und Konditionen für
+Handelsbestellungen fest sowie den gebundenen bzw. unverbindlich
+empfohlenen Endkundenpreis für etwaige elektronische Ausführungen, die
+BoD selbst erstellt hat, ohne vom Autor hierzu beauftragt zu sein.
+</li></ol>
+
+<p class="headline">§ 5 Autorenmarge, Vergütung</p>
+<ol class="medium">
+<li>Für den Verkauf von BoD-Titeln aufgrund von Handelsbestellungen
+vergütet BoD dem Autor auf vierteljährlicher Basis die hierfür im
+Buchvertrag festgelegte Autorenmarge. </li><li>Die Autorenmarge errechnet sich für Druckwerke aus dem vom
+Autor festgelegten Ladenpreis abzüglich der jeweils geltenden
+gesetzlichen Mehrwertsteuer (derzeit 7 %), der Herstellungskosten sowie
+der von BoD festzulegenden Buchhandelsrabatte und Konditionen. </li><li>Für elektronische Ausführungen beträgt die Autorenmarge 25 %
+des Netto-Verkaufserlöses (Endkundenpreis abzüglich der jeweils
+geltenden gesetzlichen Mehrwertsteuer) . </li><li>Beträge unter 25,- Euro bleiben auf dem Autorenkonto stehen
+und werden erst bei Überschreitung dieses Betrages zum Quartalsende
+bzw. bei Vertragsbeendigung ausgeschüttet.
+</li><li>Der Autor vergütet BoD das Daten- und Systemmanagement für
+BoD-Titel und/oder elektronischer Ausführungen zu den im Buchvertrag
+festgelegten Konditionen.
+</li><li>Eigenbestellungen vergütet der Autor zu den hierfür im
+Buchvertrag vorgesehenen Konditionen. Der Versand der Eigenbestellungen
+erfolgt auf Gefahr und Rechnung des Autors.
+</li><li>Meldet der Autor Änderungen der Titeldaten nicht gemäß §3
+Abs. 4 an BoD, so ist BoD berechtigt, dem Autor den durch die spätere
+Änderung der Titeldaten anfallenden Aufwand in Rechnung zu stellen.
+</li><li>BoD ist berechtigt, eigene Forderungen, die dem Autor in
+Rechnung gestellt worden sind, mit anfallenden Autorenmargen im
+Kundenkonto zu verrechnen, wenn der Autor die gestellte Rechnung trotz
+Fälligkeit nicht ausgleicht.
+</li></ol>
+
+<p class="headline">§ 6 Zahlungsbedingungen, Eigentumsvorbehalt für Eigenbestellungen</p>
+<ol class="medium">
+<li>Zahlungen hat der Autor binnen 14 Tagen ab Zugang einer Rechnung zu
+leisten. Zahlt der Autor nicht innerhalb der vorstehend genannten
+Zahlungsfrist, gerät er in Verzug. Ab Verzugseintritt zahlt der Autor
+Verzugszinsen in gesetzlicher Höhe (§288 BGB).
+</li><li>Lieferungen aufgrund von Eigenbestellungen erfolgen unter
+Eigentumsvorbehalt. Bei Weiterveräußerung der gelieferten BoD-Titel vor
+Zahlung tritt an die Stelle des Eigentums am Buch der Anspruch des
+Autors gegenüber dem jeweiligen Abnehmer, den der Autor bereits hiermit
+im Wege der Vorausabtretung an BoD abtritt.
+</li></ol>
+
+<p class="headline">§ 7 Gewährleistung</p>
+<ol class="medium">
+<li>Soweit die Leistung nicht dem freigegebenen Referenzexemplar
+entspricht ("Herstellungsfehler"), ist BoD nach ihrer Wahl zur
+kostenlosen Nachbesserung oder Neuherstellung verpflichtet. Ist die
+Leistung auch nach zweimaligem Nachbessern nicht vertragsgerecht, ist
+der Autor berechtigt, Herabsetzung der Vergütung zu verlangen oder vom
+Vertrag zurückzutreten. </li><li>Mängel der gelieferten Ware sind, sofern sie offensichtlich
+sind, innerhalb von zwei Wochen, andernfalls innerhalb von sechs
+Monaten schriftlich zu rügen.
+</li><li>Sonstige Gewährleistungsrechte sind ausgeschlossen.
+</li></ol>
+
+<p class="headline">§ 8 Lieferfristen</p>
+<ol class="medium">
+<li>BoD verpflichtet sich, bei Bestellungen des Buchhandels innerhalb einer angemessenen Lieferzeit zu liefern. 
+</li><li>Lieferzeiten für Eigenbestellungen sind individuell zu vereinbaren.
+</li><li>Höhere Gewalt, Streiks, Aussperrungen, unverschuldetes
+Unvermögen, insbesondere unverschuldeter Maschinenstillstand, Strom-
+und Wasserausfall verlängern die Lieferzeit um die Dauer der
+Behinderung.
+</li></ol>
+
+<p class="headline">§ 9 Vertragsdauer, Kündigung</p>
+<ol class="medium">
+<li>Der Vertrag kommt dadurch zustande, dass der Autor die von ihm in
+die Online-Eingabemaske auf der Webseite eingegebene Bestellung mittels
+Mausklick auf "Auftrag abschicken" oder durch Betätigen der
+"Enter"-Taste als bindendes Angebot auf Abschluss eines Vertrages an
+BoD schickt. BoD nimmt dieses Angebot durch eine
+Bestätigungs-E-Mail oder durch Lieferung an. Die Laufzeit des Vertrages
+richtet sich nach der Laufzeit des Buchvertrages zwischen dem Autor und
+BoD. Schließen BoD und der Autor unter dem vorliegenden Autorenvertrag
+mehr als einen Buchvertrag, so endet der Autorenvertrag mit der
+Beendigung des am längsten geltenden Buchvertrages. </li><li>Das Recht zur Kündigung aus wichtigem Grund bleibt jeder Seite unbenommen.
+</li><li>BoD behält sich ein fristloses Kündigungsrecht für den Fall
+vor, dass Inhalte veröffentlicht werden, die öffentlich Anstoß erregen
+können, politisch extremistische Positionen beinhalten, Personen
+verunglimpfen oder gegen internationale Gesetze verstoßen
+(außerordentliche Kündigung).
+</li><li>Eine Kündigung bedarf der Schriftform.
+</li><li>Möchte der Autor einzelne oder alle Buchverträge vorzeitig
+beenden, so ist dies gegen Zahlung der jeweils im Buchvertrag
+geregelten Gebühr möglich (Vertragsaufhebung).
+</li></ol>
+
+<p class="headline">§ 10 Haftung</p>
+<ol class="medium">
+<li>Bezüglich des Bestehens von Urheberrechten im Sinne des §2 ist BoD
+auf die Angaben des Autors angewiesen. Werden infolge unterlassener
+Unterrichtung durch die Ausführung des Auftrags Rechte, insbesondere
+Urheberrechte, Dritter verletzt, haftet der Autor hierfür allein. Der
+Autor hat BoD und etwaige Kooperationspartner von BoD von Ansprüchen
+Dritter auf erstes Anfordern freizustellen sowie BoD anfallende
+notwendige Rechtsverfolgungskosten zu erstatten. Dies gilt auch für
+Urheberrechte an den Schriftarten, Abbildungen und Fotos.
+</li><li>BoD ist nicht verantwortlich für die veröffentlichten Inhalte
+und haftet nicht für die Folgen, die aus einer Veröffentlichung von
+gesetzeswidrigen Inhalten entstehen können. Der Autor hat BoD und
+etwaige Kooperationspartner von Ansprüchen Dritter auf erstes Anfordern
+freizustellen sowie BoD anfallende notwendige Kosten der
+Rechtsverfolgung und Rechtsverteidigung zu erstatten.
+</li><li>BoD bzw. ihre Erfüllungsgehilfen und Verrichtungsgehilfen
+haften nur bei Vorsatz und grober Fahrlässigkeit. Dieser
+Haftungsausschluss gilt nicht für den Fall der Verletzung einer
+Garantie oder einer vertragswesentlichen Eigenschaft sowie bei einem
+Verstoß gegen das Produkthaftungsgesetz. Bei Verletzung einer
+wesentlichen Vertragspflicht ist die Haftung auf den typischerweise
+voraussehbaren Schaden begrenzt. </li><li>Der vorstehende Haftungsausschluss und die vorstehende
+Haftungsbegrenzung gelten nicht bei einer Verletzung des Lebens, des
+Körpers oder der Gesundheit.
+</li></ol>
+
+<p class="headline">§ 11 Widerrufsrecht</p>
+<p class="medium">BoD weist den Autor darauf hin, dass kein Recht zum
+Widerruf dieses Vertrages sowie der im Zusammenhang hiermit
+abgeschlossenen Buchverträge gemäß §§312d, 355 BGB besteht, weil es
+sich bei den durch BoD hergestellten BoD-Titeln um Produkte handelt,
+die individuell nach den Wünschen des Autors angefertigt werden. In
+diesen Fällen ist das Widerrufsrecht gemäß §312d Abs. 4 Nr. 1 BGB
+ausgeschlossen.
+</p>
+
+<p class="headline">§ 12 Sonstige Bestimmungen</p>
+<ol class="medium">
+<li>Sollte eine Bestimmung dieses Vertrages unwirksam sein oder werden
+oder gesetzlich nicht geregelte Lücken enthalten, so bleibt der Vertrag
+als solcher gültig. Die beanstandete Klausel ist durch eine gültige zu
+ersetzen, die dem wirtschaftlichen Zweck und rechtlichen Sinn der
+ursprünglichen Formulierung am nächsten kommt.
+</li><li>Im Fall unvorhergesehener Entwicklung sind sich die Parteien
+einig, dass für die Auslegung und etwaige erforderliche Ergänzungen des
+Vertrages die Grundsätze kaufmännischer Loyalität gelten.
+</li><li>Gerichtsstand ist Hamburg.
+</li><li>Änderungen oder Ergänzungen dieses Vertrages bedürfen der Schriftform.
+</li></ol>
+
+<p class="medium">Norderstedt, 27.10.2009</p>
+<br><br>
+
+
+	</div>
+	
+	<!-- END: Content of extension "mybod_buchprojekt", plugin "tx_mybodbuchprojekt_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:10696/list [end] -->
+		
+    
+    
+    </td>
+    <td width="5%"></td>
+    
+  </tr>
+</tbody></table>
+
+</body></html>

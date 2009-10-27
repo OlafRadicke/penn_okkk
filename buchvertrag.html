@@ -1,0 +1,435 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><!-- templateordner fileadmin/bod_de/forms -->
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2008 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+	<link rel="stylesheet" type="text/css" href="vertrag-Dateien/stylesheet_2ee6a79ad2.css">
+	<link rel="stylesheet" type="text/css" href="vertrag-Dateien/bod_mybod.css">
+	<title>BoD - Books on Demand GmbH: Buchvertrag Druckversion</title>
+	<meta name="generator" content="TYPO3 4.2 CMS">
+	<meta name="language" content="de">
+	<meta name="author" content="weikatec.de">
+	<meta name="description" content="Books on Demand - BoD realisiert ihre Buchideen, schnell, einfach, g&amp;uuml;nstig und risikolos. BoD nutzt die Technologie des digitalen Buchdruckes schon ab 1 Exemplar und bietet die Logistik f&amp;uuml;r den fl&amp;auml;chendeckenden Vertrieb. Und die weltweite Ver&amp;ouml;ffentlichung Ihres Buches ist Realit&amp;auml;t!">
+	<meta name="keywords" content="books on demand,bod,buch,b&amp;uuml;cher,buchhandel,buchh&amp;auml;ndler,druckerei,verlag,verlegen,publizieren,ver&amp;ouml;ffentlichen,autor,autorin,autorenforum,vergriffen,books-on-demand,druck,drucken,schriftsteller,literatur,buchdruck,digitaldruck,dissertationen,drucktechnologie,druckvorlage,buchkatalog,just-in-time,kleinstauflage,kleinauflage,literaturagenten,printing on demand,publishing on demand,belletristik,gedichte,fachbuch,erz&amp;auml;hlungen,heimatliteratur,jugendbuch,kinderbuch,kriegserinnerungen,lyrik,regionalia,regionalliteratur,romane,schreiben,textdatei,wissenschaft,diplomarbeiten,diplomarbeit,hausarbeiten,hausarbeit">
+	<meta name="robots" content="index, follow">
+	<meta name="HTTP-EQUIV" content="text/html; charset=windows-1252">
+	<meta name="copyright" content="Books on Demand GmbH">
+	<script type="text/javascript" src="vertrag-Dateien/javascript_93077bb238.js"></script>
+
+</head><body>
+
+ 
+
+<style>.popupLink {
+	COLOR: red; outline: none
+}
+.popup {
+	BACKGROUND-COLOR: yellow; BORDER-BOTTOM: black 3px solid; BORDER-LEFT: black 1px solid; BORDER-RIGHT: black 3px solid; BORDER-TOP: black 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px; POSITION: absolute; VISIBILITY: hidden; Z-INDEX: 10; LAYER-BACKGROUND-COLOR: yellow
+}
+</style>
+<script language="JavaScript1.2">
+
+var xOffset = 30;
+var yOffset = -5;
+
+function showPopup (targetObjectId, eventObj, x, y ) {
+    if(eventObj) {
+	// hide any currently-visible popups
+	hideCurrentPopup();
+	// stop event from bubbling up any farther
+	eventObj.cancelBubble = true;
+	// move popup div to current cursor position 
+	// (add scrollTop to account for scrolling for IE)
+//	var newXCoordinate = (eventObj.pageX)?eventObj.pageX + xOffset:eventObj.x + xOffset + ((document.body.scrollLeft)?document.body.scrollLeft:0);
+//	var newYCoordinate = (eventObj.pageY)?eventObj.pageY + yOffset:eventObj.y + yOffset + ((document.body.scrollTop)?document.body.scrollTop:0);
+	var newXCoordinate = x;
+	var newYCoordinate = y;
+	moveObject(targetObjectId, newXCoordinate, newYCoordinate);
+	// and make it visible
+	if( changeObjectVisibility(targetObjectId, 'visible') ) {
+	    // if we successfully showed the popup
+	    // store its Id on a globally-accessible object
+	    window.currentlyVisiblePopup = targetObjectId;
+	    return true;
+	} else {
+	    // we couldn't show the popup, boo hoo!
+	    return false;
+	}
+    } else {
+	// there was no event object, so we won't be able to position anything, so give up
+	return false;
+    }
+} // showPopup
+
+function hideCurrentPopup() {
+    // note: we've stored the currently-visible popup on the global object window.currentlyVisiblePopup
+    if(window.currentlyVisiblePopup) {
+	changeObjectVisibility(window.currentlyVisiblePopup, 'hidden');
+	window.currentlyVisiblePopup = false;
+    }
+} // hideCurrentPopup
+
+
+
+// ***********************
+// hacks and workarounds *
+// ***********************
+
+// initialize hacks whenever the page loads
+window.onload = initializeHacks;
+
+// setup an event handler to hide popups for generic clicks on the document
+document.onclick = hideCurrentPopup;
+
+function initializeHacks() {
+    // this ugly little hack resizes a blank div to make sure you can click
+    // anywhere in the window for Mac MSIE 5
+    if ((navigator.appVersion.indexOf('MSIE 5') != -1) 
+	&& (navigator.platform.indexOf('Mac') != -1)
+	&& getStyleObject('blankDiv')) {
+	window.onresize = explorerMacResizeFix;
+    }
+    resizeBlankDiv();
+    // this next function creates a placeholder object for older browsers
+    createFakeEventObj();
+}
+
+function createFakeEventObj() {
+    // create a fake event object for older browsers to avoid errors in function call
+    // when we need to pass the event object to functions
+    if (!window.event) {
+	window.event = false;
+    }
+} // createFakeEventObj
+
+function resizeBlankDiv() {
+    // resize blank placeholder div so IE 5 on mac will get all clicks in window
+    if ((navigator.appVersion.indexOf('MSIE 5') != -1) 
+	&& (navigator.platform.indexOf('Mac') != -1)
+	&& getStyleObject('blankDiv')) {
+	getStyleObject('blankDiv').width = document.body.clientWidth - 20;
+	getStyleObject('blankDiv').height = document.body.clientHeight - 20;
+    }
+}
+
+function explorerMacResizeFix () {
+    location.reload(false);
+}
+
+function getStyleObject(objectId) {
+    // cross-browser function to get an object's style object given its id
+    if(document.getElementById && document.getElementById(objectId)) {
+	// W3C DOM
+	return document.getElementById(objectId).style;
+    } else if (document.all && document.all(objectId)) {
+	// MSIE 4 DOM
+	return document.all(objectId).style;
+    } else if (document.layers && document.layers[objectId]) {
+	// NN 4 DOM.. note: this won't find nested layers
+	return document.layers[objectId];
+    } else {
+	return false;
+    }
+} // getStyleObject
+
+function changeObjectVisibility(objectId, newVisibility) {
+    // get a reference to the cross-browser style object and make sure the object exists
+    var styleObject = getStyleObject(objectId);
+    if(styleObject) {
+	styleObject.visibility = newVisibility;
+	return true;
+    } else {
+	// we couldn't find the object, so we can't change its visibility
+	return false;
+    }
+} // changeObjectVisibility
+
+function moveObject(objectId, newXCoordinate, newYCoordinate) {
+    // get a reference to the cross-browser style object and make sure the object exists
+    var styleObject = getStyleObject(objectId);
+    if(styleObject) {
+	styleObject.left = newXCoordinate;
+	styleObject.top = newYCoordinate;
+	return true;
+    } else {
+	// we couldn't find the object, so we can't very well move it
+	return false;
+    }
+} // moveObject
+
+
+</script>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td valign="top" width="5%"><img alt="" src="vertrag-Dateien/clear.gif" border="0" height="18" width="1"></td>
+    <td valign="top" width="90%">
+    
+    
+
+	<!--  CONTENT ELEMENT, uid:10697/list [begin] -->
+		<a id="c10697"></a>
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "mybod_buchprojekt", plugin "tx_mybodbuchprojekt_pi1"
+
+	-->
+	<div class="tx-mybodbuchprojekt-pi1">
+		
+
+
+<p class="medium" align="left">
+<font class="headlinebig">Buchvertrag</font><br><br>
+
+Zwischen der Books on Demand GmbH, Gutenbergring 53, 22848 Norderstedt - nachfolgend <b>BoD</b> -  und
+<br><br>
+
+Olaf Radicke <br>
+Ludwig-Richter-Str.11<br>
+DE 80687 München<br>
+<br>
+- nachfolgend <b>Vertragspartner</b> - wird ergänzend zum Autorenvertrag vom 27.10.2009  folgendes vereinbart:
+</p>
+
+<p class="medium"><b>Ihr BoD-Nr. lautet:</b> 614094</p>
+
+<p class="headline">1) Nutzungsrechte</p>
+
+<p class="medium">Der Vertragspartner räumt BoD die in §2 Abs. 1 des
+Autorenvertrages näher bezeichneten Nutzungsrechte für den folgenden
+Titel ein:</p>
+
+<table cellpadding="5" cellspacing="0">
+  <tbody><tr>
+  	<td class="medium" valign="top">BoD-Nr.:</td>
+  	<td class="medium" valign="top">614094</td></tr>
+  <tr>
+  	<td class="medium" valign="top">Titel:</td>
+  	<td class="medium" valign="top">Ohne Kreuz keine Krone</td></tr>
+  <tr>
+  	<td class="medium" valign="top">Autor:</td>
+  	<td class="medium" valign="top">Penn, William / Radicke, Olaf / Bernet, Claus</td></tr>	
+  <tr>
+  	<td class="medium" valign="top">ISBN:</td>
+  	<td class="medium" valign="top">9783839126080</td></tr>
+ </tbody></table>
+ 
+<p class="headline">2) Rahmendaten des Druckwerkes</p>
+
+<table cellpadding="5" cellspacing="0"> 
+  <tbody><tr>
+  	<td class="medium" valign="top">Produkt:</td>
+  	<td class="medium" valign="top">BoD Classic</td></tr>			  
+  <tr>
+  	<td class="medium" valign="top">Format:</td>
+  	<td class="medium" valign="top">14,8*21</td></tr>			  
+  <tr>
+  	<td class="medium" valign="top">Gesamtseitenzahl:</td>
+  	<td class="medium" valign="top">368</td></tr>			  
+  <tr>
+  	<td class="medium" valign="top">Papiersorte für den Buchblock:</td>
+  	<td class="medium" valign="top">cremeweiß 90g</td></tr>			  
+  <tr>
+  	<td class="medium" valign="top">Umschlag:</td>
+  	<td class="medium" valign="top">PB</td></tr>			  
+  <tr>
+  	<td class="medium" valign="top">Druck des Umschlags:</td>
+  	<td class="medium" valign="top">Farbig (4c)</td></tr>			  
+  <tr>
+  	<td class="medium" valign="top">Anzahl Farbseiten im Buchblock:</td>
+  	<td class="medium" valign="top">0 Seiten</td></tr>			  
+</tbody></table>
+<p class="medium">
+Das Buchformat und die Ausstattung können bei einer Produktion in
+Auslandsmärkten oder für Auslandsmärkte infolge der Konvertierung der
+Daten in die in ausländischen Buchmärkten üblichen Formate von den oben
+genannten Rahmendaten abweichen (sog. Auslandsexemplare).
+</p>
+<br>																		
+
+<p class="headline">3) Verbindliche Freigabe des Werkes des Autors; Korrekturen, Änderungen</p>
+<ol class="medium" type="a">
+<li>Durch das Absenden dieses Auftrags an BoD online mittels Mausklick
+auf "Auftrag abschicken" oder durch Betätigen der "Enter"-Taste erkennt
+der Vertragspartner die von ihm hochgeladenen und in der Druckvorschau
+freigegebenen Dateien als vertragsgemäße Leistung an. </li><li>BoD weist darauf hin, dass die digitale Druckvorschau am
+Bildschirm und das gedruckte Werk sich aus technischen Gründen optisch
+unterscheiden können. </li><li>Änderungen nach Freigabe gelten als Neuauflage und erfordern
+die Erteilung eines neuen Auftrages an BoD, der zu neuen
+Masteringkosten führt. </li></ol>
+
+<p class="headline">4) Kosten</p>
+<ol class="medium" type="a">
+<li>Kosten für das Mastering (s.o.):  EUR 39.00 inkl. der jeweils geltenden gesetzlichen USt. (zzt. 19%).
+</li><li>Kosten der elektronischen Speicherung (Datensystemmanagement):
+EUR 1.99 pro Monat inkl. der jeweils geltenden gesetzlichen USt. (zzt.
+19%).
+</li><li>Einmalige Konvertierungskosten für den Auslandsvertrieb
+(optional): 9.90 EUR inkl. der jeweils geltenden gesetzlichen USt.
+(zzt. 19%).
+</li><li>Zusätzliche Leistungen werden auf Grundlage der Preisliste berechnet.
+</li><li>Der Vertragspartner vergütet die Herstellung und den Vertrieb von Eigenbestellungen wie folgt:<br>
+<table>
+  <tbody><tr>
+	<td>1 - 24 Expl.:</td>
+	<td>pro Expl.  inkl. 7.00% USt.</td>
+	<td>EUR 25.59</td>
+  </tr>
+  <tr>
+	<td>25 - 99 Expl.:</td>
+	<td>pro Expl.  inkl. 7.00% USt.</td>
+	<td>EUR 16.54</td>
+  </tr>
+  <tr>
+	<td>100 - 199 Expl.:</td>
+	<td>pro Expl.  inkl. 7.00% USt.</td>
+	<td>EUR 13.39</td>
+  </tr>
+  <tr>
+	<td>200 -  Expl.:</td>
+	<td>pro Expl.  inkl. 7.00% USt.</td>
+	<td>EUR 11.42</td>
+  </tr>
+</tbody></table>
+</li>
+<li>Frachtkosten werden zusätzlich berechnet. Die Kosten richten sich
+jeweils nach dem Umfang der Lieferung zuzüglich der jeweils geltenden
+gesetzlichen USt.
+</li><li>Hat der Kunde einen Vertrag zu den Bedingungen "BoD-Fun"
+geschlossen, fallen die monatlichen Kosten für das
+Datensystemmanagement erst ab dem zweiten Monat der Vertragslaufzeit
+an.
+</li><li>Herstellung und Vertrieb von Eigenbedarfsbestellungen
+erfolgen ausschließlich über BoD. Etwaige länderspezifische Formate
+können nicht als Eigenbedarfsbestellungen bei BoD bezogen werden.
+</li></ol>
+
+
+
+<p class="headline">5)Ladenpreis, Buchhandelsrabatte</p>
+<ol class="medium" type="a">
+<li>Der durch den Vertragspartner festgelegte titelbezogene gebundene
+Ladenpreis für den Vertrieb in Deutschland beträgt inkl. der derzeit
+geltenden gesetzlichen USt. (zzt. 7 %): EUR 22.90
+</li><li>Den jeweiligen unverbindlich empfohlenen Verkaufspreis (UVP)
+oder &#8211; sofern ggf. gesetzlich vorgeschrieben &#8211; den jeweiligen
+nationalen gebundenen Ladenpreis, jeweils inklusive der gesetzlich
+geltenden USt., für den Vertrieb des Titels in Märkten, in denen der
+Euro nicht gesetzliches Zahlungsmittel ist, legt BoD in Anlehnung an
+den unter a. genannten titelbezogenen Ladenpreis unter Berücksichtigung
+der jeweiligen landesspezifischen Gegebenheiten (z. B. Vertriebskosten,
+Druckkosten) fest.
+</li></ol>
+
+<p class="headline">6) Autorenmarge für Druckwerke</p>
+<ol class="medium" type="a">
+<li>Bei Handelsbestellungen für Märkte, in denen der Euro gesetzliches
+Zahlungsmittel ist, erhält der Vertragspartner eine Autorenmarge in
+Höhe von EUR 2.20 zzgl. der jeweils geltenden gesetzlichen USt. (zzt.
+7.00%) pro Exemplar.
+</li><li>b) Bei Handelsbestellungen für Märkte, in denen der Euro kein
+gesetzliches Zahlungsmittel ist, erhält der Vertragspartner eine feste
+Autorenmarge in der jeweiligen Landeswährung des ausländischen Marktes
+(nachfolgend Auslandsautorenmarge). Die jeweilige Auslandsautorenmarge
+wird bei Markteintritt des Titels dauerhaft festgelegt, indem die
+Autorenmarge gem. Ziffer 5) a. zum jeweiligen Euro-Referenzkurs der EZB
+in die jeweilige nationale Währung umgerechnet wird.
+</li><li>Die Autorenmarge und die etwaige Auslandsautorenmarge werden
+jeweils zum Ende eines Quartals in Euro abgerechnet
+(Auslandsautorenmargen werden jeweils zum Euro-Referenzkurs der EZB am
+Abrechnungsstichtag berücksichtigt) und jeweils in dem auf das Ende des
+Quartals folgenden Monat zur Zahlung fällig. Im Übrigen wird auf §5
+Abs. 3 des Autorenvertrages verwiesen.
+</li><li>Die Margenausschüttung gilt als Vorauszahlung und wird bei
+etwaigen Remissionen der Handelsbestellungen mit der nachfolgenden
+Margen- oder Endabrechnung verrechnet.
+</li></ol>
+
+
+<p class="headline">7) Vertragsdauer und  Kündigung</p>
+<ol class="medium" type="a">
+<li>Der Vertrag kommt dadurch zustande, dass der Vertragspartner die
+von ihm in die Online-Eingabemaske auf der Webseite eingegebene
+Bestellung mittels Mausklick auf "Auftrag abschicken" oder durch
+Betätigen der "Enter"-Taste als bindendes Angebot auf Abschluss eines
+Vertrages an BoD schickt. BoD nimmt dieses Angebot durch eine
+Bestätigungs-E-Mail oder durch Lieferung an. </li><li>Der Vertrag gilt vom Zeitpunkt des Zustandekommens an für
+eine Dauer von fünf Jahren (Erstlaufzeit). Nach Ablauf der Erstlaufzeit
+kann der Buchvertrag von beiden Vertragsparteien mit einer Frist von
+drei Monaten zum Monatsende gekündigt werden.
+</li><li>Abweichend von der Regelung in Buchstabe b) kann ein
+Buchvertrag, der zu den Bedingungen "BoD-Fun" geschlossen worden ist,
+von beiden Seiten jederzeit zum Monatsende gekündigt werden. </li><li>Das Recht zur Kündigung aus wichtigem Grund bleibt jeder Seite unbenommen.
+</li><li>Herstellung und Vertrieb von Druckwerken (Buchvertrag) und
+Vertrieb von elektronischen Ausführungen (eBook-Vertrag) können jeweils
+unabhängig voneinander gekündigt werden.
+</li><li>BoD behält sich ein fristloses Kündigungsrecht für den Fall
+vor, dass Inhalte veröffentlicht werden, die öffentlich Anstoß erregen
+können, politisch extremistische Positionen beinhalten, Personen
+verunglimpfen oder gegen internationale Gesetze verstoßen
+(außerordentliche Kündigung).
+</li><li>BoD bietet dem Vertragspartner an, diesen Buchvertrag vor
+Ablauf der in b) genannten Festlaufzeit vorzeitig gegen Zahlung einer
+Aufwandsentschädigung in Höhe von EUR 299.00 inkl. 19 % USt. zu beenden
+(Vertragsaufhebung).
+</li></ol>
+
+<p class="headline">8) Preisanpassung</p>
+<p class="medium">Sollte sich der Marktpreis für Papier um mehr als 10%
+verändern, ist BoD berechtigt, die in diesem Ergänzungsvertrag
+vereinbarten Nettopreise um 2% anzupassen. Preisänderungen müssen
+nachgewiesen werden (Quelle EUWID). Im Falle einer Änderung des
+Umsatzsteuersatzes werden die ausgewiesenen Endpreise entsprechend
+angepasst.</p>
+
+<p class="headline">9) Widerrufsrecht</p>
+<p class="medium">BoD weist den Vertragspartner ausdrücklich darauf
+hin, dass weder hinsichtlich dieses Buchvertrages noch hinsichtlich des
+Autorenvertrages ein Widerrufsrecht i. S. d. §§312d, 355 BGB besteht,
+weil es sich bei den von BoD für den Vertragspartner hergestellten
+BoD-Titeln um individuell nach den Wünschen des Vertragspartners
+hergestellte Produkte handelt. In diesen Fällen ist das Widerrufsrecht
+gemäß §312d Abs. 4 Nr. 1 BGB ausgeschlossen.</p>
+
+<p class="headline">9) Ergänzende Bestimmungen</p>
+<ol class="medium" type="a">
+<li>BoD weist darauf hin, dass die (Voll-)Textsuche einen Service des
+jeweiligen Anbieters darstellt, auf deren ordnungsgemäßes Funktionieren
+BoD keinerlei Einfluss hat. BoD steht daher nicht für die
+Funktionsfähigkeit der (Voll-)Textsuchen ein. </li><li>Soweit vorstehend nichts Abweichendes geregelt wurde, gelten
+ergänzend die Regelungen des zwischen dem Vertragspartner und BoD
+geschlossenen Autorenvertrages. </li></ol>
+
+<p class="medium">Norderstedt, 27.10.2009</p>
+<br><br>
+
+
+	</div>
+	
+	<!-- END: Content of extension "mybod_buchprojekt", plugin "tx_mybodbuchprojekt_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:10697/list [end] -->
+		
+    
+    
+    </td>
+    <td width="5%"></td>
+    
+  </tr>
+</tbody></table>
+
+</body></html>
