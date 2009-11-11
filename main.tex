@@ -28,6 +28,28 @@
 \vfuzz \hfuzz
 \raggedbottom
 
+% Randbemerkungen anpassen
+\setlength{\marginparsep}{4mm} % Mindestabstand vom Text
+%\setlength{\marginparwidth}{20mm} % Maximalbreite
+
+%\setlength{\oddsidemargin}{35mm}
+%\setlength{\evensidemargin}{35mm}
+%\setlength{\textwidth}{90mm}
+
+\newcommand{\bibleindex}[1]
+{
+\index{Bibelstellen:!#1)}
+}
+
+\newcommand{\biblecite}[2]
+{
+$\diamond$\marginpar{\footnotesize{{#1}}}{\bibleindex{#2}}
+}
+
+\newcommand{\editnote}[1]
+{
+\footnote{\texttt{{#1}}}
+}
 
 \makeindex{}
 % Der Befehl zum erstellen des Indexes lautet
