@@ -36,20 +36,23 @@
 %\setlength{\evensidemargin}{35mm}
 %\setlength{\textwidth}{90mm}
 
+% Definiton des Komandos \bibleindex
+% Indexeintrag für Bibelstellen
 \newcommand{\bibleindex}[1]
-{
-\index{Bibelstellen:!#1)}
-}
+{\index{Bibelstellen:!#1)}}
 
+% Definiton des Komandos \biblecite
+% Für Bibelzitate. Erster Wert ist die Radbemerung
+% Zeiter Wert ist der Indexeintrag
 \newcommand{\biblecite}[2]
-{
-$\diamond$\marginpar{\footnotesize{{#1}}}{\bibleindex{#2}}
-}
+{$\diamond$\marginpar{\scriptsize{{#1}}}{\bibleindex{#2}}}
+% \newcommand{\biblecite}[2]
+% {$\diamond$\marginpar{\footnotesize{{#1}}}{\bibleindex{#2}}}
 
+% Definiton des Komandos \editnote
+% Für Anmerkungen der Herrausgeber
 \newcommand{\editnote}[1]
-{
-\footnote{\texttt{{#1}}}
-}
+{\footnote{\texttt{{#1}}}}
 
 \makeindex{}
 % Der Befehl zum erstellen des Indexes lautet
