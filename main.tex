@@ -1,3 +1,10 @@
+% Generierung des Index:
+% \makeindex
+% \makeindex{person}
+% Der Befehl zum erstellen des Indexes lautet
+% bash make_pdf.sh
+
+
 
 % \documentclass[a5paper,pagesize,10pt]{scrbook}
 % \documentclass[a5paper,pagesize,9pt]{scrbook}
@@ -20,6 +27,11 @@
 % Endnoten
 \usepackage{endnotes}
 
+%Paket um mehere Verzeichnisse haben zu können
+\usepackage{index}
+  \newindex{default}{idx}{ind}{Schlagwortverzeichnis}
+  \newindex{person}{adx}{and}{Personenverzeichnis}
+  \newindex{bibel}{bdx}{bnd}{Bibelstellen}
 
 %\pagestyle{headings}
 %Kapitelnummerierung:
@@ -45,10 +57,16 @@
 % ändern zu können
 \newcommand{\versionsnummer}{1.1}
 
+% Definiton des Komandos \personenindex
+% Indexeintrag für Personen
+\newcommand{\personenindex}[1]
+{\index[person]{{#1}}}
+
 % Definiton des Komandos \bibleindex
 % Indexeintrag für Bibelstellen
 \newcommand{\bibleindex}[1]
-{\index{Bibelstellen:!#1)}}
+{\index[bibel]{#1)}}
+%{\index{Bibelstellen:!#1)}}
 
 % Für seitliche Biblelangaben.
 \newcommand{\bibmarginpar}[1]
@@ -66,10 +84,6 @@
 % Für Anmerkungen der Herrausgeber
 \newcommand{\editnote}[1]
 {\footnote{\texttt{{#1}}}}
-
-\makeindex{}
-% Der Befehl zum erstellen des Indexes lautet
-% makeindex -s ./main.ist ./main.idx
 
 
 \begin{document}
@@ -145,23 +159,23 @@ Menschen anrichtet.
 \end{description}
 
 \include{kapitel_01}
-\include{kapitel_02} 
+\include{kapitel_02}
 \include{kapitel_03}
 \include{kapitel_04}
-\include{kapitel_05} 
-\include{kapitel_06} 
-\include{kapitel_07} 
-\include{kapitel_08} 
-\include{kapitel_09} 
-\include{kapitel_10} 
+\include{kapitel_05}
+\include{kapitel_06}
+\include{kapitel_07}
+\include{kapitel_08}
+\include{kapitel_09}
+\include{kapitel_10}
 \include{kapitel_11}
 \include{kapitel_12}
-\include{kapitel_13} 
-\include{kapitel_14} 
-\include{kapitel_15} 
-\include{kapitel_16} 
-\include{kapitel_17} 
-\include{kapitel_18} 
+\include{kapitel_13}
+\include{kapitel_14}
+\include{kapitel_15}
+\include{kapitel_16}
+\include{kapitel_17}
+\include{kapitel_18}
 
 %Kapitelnummerierung für den Rest wieder einschalten.
 \setcounter{secnumdepth}{0}
@@ -200,18 +214,25 @@ gelesen werden (oder auch gar nicht).
 
 \include{bib}
 
+
 \chapter{Lexikalischer Anhang}
 \include{lex_anhang}
 
-\addcontentsline{toc}{chapter}{\protect\numberline{11}{Index}}
-
+\addcontentsline{toc}{chapter}{\protect\numberline{11}{Schlagwortverzeichnis}}
 \printindex
+
+\addcontentsline{toc}{chapter}{\protect\numberline{12}{Personenverzeichnis}}
+\printindex[person]
+
+
+\addcontentsline{toc}{chapter}{\protect\numberline{13}{Bibelstellen}}
+\printindex[bibel]
 % \printindex{stichwot}{Stichwörter}
 % \printindex{person}{Personen}
 % \printindex{ort}{Orte}
 
 \pagestyle{plain}
-\addcontentsline{toc}{chapter}{\protect\numberline{12}{Über Claus Bernet}}
+\addcontentsline{toc}{chapter}{\protect\numberline{14}{Über Claus Bernet}}
 \include{claus_vita}
 
 \null\newpage
