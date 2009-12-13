@@ -1,3 +1,11 @@
+% Generierung des Index:
+% \makeindex
+% \makeindex{person}
+% Der Befehl zum erstellen des Indexes lautet
+% makeindex -s ./main.ist ./main.idx -o ./main.ind
+% makeindex ./main.adx -o ./main.and
+
+
 
 % \documentclass[a5paper,pagesize,10pt]{scrbook}
 % \documentclass[a5paper,pagesize,9pt]{scrbook}
@@ -17,6 +25,10 @@
 \usepackage{floatflt}
 % für die Grapik
 \usepackage{tikz}
+%Paket um mehere Verzeichnisse haben zu können
+\usepackage{index}
+  \newindex{default}{idx}{ind}{Schlagwortverzeichnis}
+  \newindex{person}{adx}{and}{Personenverzeichnis}
 
 
 %\pagestyle{headings}
@@ -46,7 +58,7 @@
 % Definiton des Komandos \personenindex
 % Indexeintrag für Personen
 \newcommand{\personenindex}[1]
-{\index{Personen:!#1}}
+{\index[person]{{#1}}}
 
 % Definiton des Komandos \bibleindex
 % Indexeintrag für Bibelstellen
@@ -69,10 +81,6 @@
 % Für Anmerkungen der Herrausgeber
 \newcommand{\editnote}[1]
 {\footnote{\texttt{{#1}}}}
-
-\makeindex{}
-% Der Befehl zum erstellen des Indexes lautet
-% makeindex -s ./main.ist ./main.idx
 
 
 \begin{document}
@@ -163,7 +171,7 @@ Menschen anrichtet.
 \include{kapitel_14} 
 \include{kapitel_15} 
 \include{kapitel_16} 
-\include{kapitel_17} 
+%\include{kapitel_17} 
 \include{kapitel_18} 
 
 %Kapitelnummerierung für den Rest wieder einschalten.
@@ -203,15 +211,18 @@ gelesen werden (oder auch gar nicht).
 
 \include{bib}
 
-\addcontentsline{toc}{chapter}{\protect\numberline{11}{Index}}
+\addcontentsline{toc}{chapter}{\protect\numberline{11}{Schlagwortverzeichnis}}
 
 \printindex
+
+\addcontentsline{toc}{chapter}{\protect\numberline{12}{Personenverzeichnis}}
+\printindex[person]
 % \printindex{stichwot}{Stichwörter}
 % \printindex{person}{Personen}
 % \printindex{ort}{Orte}
 
 \pagestyle{plain}
-\addcontentsline{toc}{chapter}{\protect\numberline{12}{Über Claus Bernet}}
+\addcontentsline{toc}{chapter}{\protect\numberline{13}{Über Claus Bernet}}
 \include{claus_vita}
 
 \null\newpage
