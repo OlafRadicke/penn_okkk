@@ -2,8 +2,7 @@
 % \makeindex
 % \makeindex{person}
 % Der Befehl zum erstellen des Indexes lautet
-% makeindex -s ./main.ist ./main.idx -o ./main.ind
-% makeindex ./main.adx -o ./main.and
+% bash make_pdf.sh
 
 
 
@@ -29,6 +28,7 @@
 \usepackage{index}
   \newindex{default}{idx}{ind}{Schlagwortverzeichnis}
   \newindex{person}{adx}{and}{Personenverzeichnis}
+  \newindex{bibel}{bdx}{bnd}{Bibelstellen}
 
 
 %\pagestyle{headings}
@@ -63,7 +63,8 @@
 % Definiton des Komandos \bibleindex
 % Indexeintrag für Bibelstellen
 \newcommand{\bibleindex}[1]
-{\index{Bibelstellen:!#1)}}
+{\index[bibel]{#1)}}
+%{\index{Bibelstellen:!#1)}}
 
 % Für seitliche Biblelangaben.
 \newcommand{\bibmarginpar}[1]
@@ -156,23 +157,23 @@ Menschen anrichtet.
 \end{description}
 
 \include{kapitel_01}
-\include{kapitel_02} 
+\include{kapitel_02}
 \include{kapitel_03}
 \include{kapitel_04}
-\include{kapitel_05} 
-\include{kapitel_06} 
-\include{kapitel_07} 
-\include{kapitel_08} 
-\include{kapitel_09} 
-\include{kapitel_10} 
+\include{kapitel_05}
+\include{kapitel_06}
+\include{kapitel_07}
+\include{kapitel_08}
+\include{kapitel_09}
+\include{kapitel_10}
 \include{kapitel_11}
 \include{kapitel_12}
-\include{kapitel_13} 
-\include{kapitel_14} 
-\include{kapitel_15} 
-\include{kapitel_16} 
-%\include{kapitel_17} 
-\include{kapitel_18} 
+\include{kapitel_13}
+\include{kapitel_14}
+\include{kapitel_15}
+\include{kapitel_16}
+\include{kapitel_17}
+\include{kapitel_18}
 
 %Kapitelnummerierung für den Rest wieder einschalten.
 \setcounter{secnumdepth}{0}
@@ -212,17 +213,20 @@ gelesen werden (oder auch gar nicht).
 \include{bib}
 
 \addcontentsline{toc}{chapter}{\protect\numberline{11}{Schlagwortverzeichnis}}
-
 \printindex
 
 \addcontentsline{toc}{chapter}{\protect\numberline{12}{Personenverzeichnis}}
 \printindex[person]
+
+
+\addcontentsline{toc}{chapter}{\protect\numberline{13}{Bibelstellen}}
+\printindex[bibel]
 % \printindex{stichwot}{Stichwörter}
 % \printindex{person}{Personen}
 % \printindex{ort}{Orte}
 
 \pagestyle{plain}
-\addcontentsline{toc}{chapter}{\protect\numberline{13}{Über Claus Bernet}}
+\addcontentsline{toc}{chapter}{\protect\numberline{14}{Über Claus Bernet}}
 \include{claus_vita}
 
 \null\newpage
