@@ -17,12 +17,17 @@
 
 
 % \twocolumn \onecolumn
+% Für brüche all a 1/2 z.B.
+% $\nicefrac{1}{2}$
+\usepackage{nicefrac} 
 \usepackage{ngerman}
 \usepackage[utf8]{inputenc}
 \usepackage{makeidx}
 \usepackage[pdftex]{graphicx}
-\usepackage{floatflt}
+% \usepackage{floatflt}
 % für die Grapik
+% Ersatz für \usepackage{floatflt}
+\usepackage{wrapfig}
 \usepackage{tikz}
 % Endnoten
 \usepackage{endnotes}
@@ -56,7 +61,7 @@
 
 % Definition um die Versionsnummer Zentrahl
 % ändern zu können
-\newcommand{\versionsnummer}{1.1}
+\newcommand{\versionsnummer}{2.0}
 
 % Definiton des Komandos \personenindex
 % Indexeintrag für Personen
