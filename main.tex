@@ -9,7 +9,7 @@
 % \documentclass[a5paper,pagesize,10pt]{scrbook}
 % \documentclass[a5paper,pagesize,9pt]{scrbook}
 % \documentclass[a5paper,pagesize,8pt]{scrbook}
-\documentclass[pdftex,pagesize,9pt]{scrbook}
+\documentclass[pdftex,pagesize,10pt]{scrbook}
 \usepackage{typearea}
 \setlength{\paperheight}{22cm}
 \setlength{\paperwidth}{17cm}
@@ -233,8 +233,13 @@ gelesen werden (oder auch gar nicht).
 
 \addcontentsline{toc}{chapter}{\protect\numberline{15}{Über Claus Bernet}}
 \include{claus_vita}
-
+% ---- leere Seiten
 \null\newpage
+\cleardoublepage
+\shipout\null
+
+
+
 \vspace{\fill}
 
 \fbox{
@@ -260,7 +265,10 @@ Books on Demand GmbH, Norderstedt\\
 
 ISBN: 978-3-8391-2608-0
 }}
-\pagebreak 
+%\pagebreak 
+%\newpage
+%\cleardoublepage
+%\shipout\null
 
 \end{document}
 
