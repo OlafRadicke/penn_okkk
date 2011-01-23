@@ -75,11 +75,13 @@
 %{\index{Bibelstellen:!#1)}}
 
 % Für seitliche Biblelangaben.
+
 \newcommand{\bibmarginpar}[1]
-{$\diamond$\marginpar{\scriptsize{{#1}}}}
+{$\diamond$\marginpar{\begin{flushleft}\scriptsize{{#1}}\end{flushleft}}}
+
 
 % Definiton des Komandos \biblecite
-% Für Bibelzitate. Erster Wert ist die Radbemerung
+% Für Bibelzitate. Erster Wert ist die Randbemerung
 % Zeiter Wert ist der Indexeintrag
 \newcommand{\biblecite}[2]
 {\bibmarginpar{{#1}}{\bibleindex{#2}}}
