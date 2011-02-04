@@ -97,7 +97,10 @@
 
 
 \begin{document}
+\thispagestyle{empty}
+
 \null\newpage
+\thispagestyle{empty}
 
 \author{
 Eine Abhandlung \\
@@ -223,26 +226,40 @@ gelesen werden (oder auch gar nicht).
 \addcontentsline{toc}{chapter}{\protect\numberline{12}{Schlagwortverzeichnis}}
 \printindex
 
+\pagebreak
+\cleardoublepage
+
 \addcontentsline{toc}{chapter}{\protect\numberline{13}{Personenverzeichnis}}
 \printindex[person]
 
+\pagebreak
+\cleardoublepage
 
 \addcontentsline{toc}{chapter}{\protect\numberline{14}{Bibelstellen}}
 \printindex[bibel]
 
 \include{bib}
 
-\pagestyle{plain}
-
 
 \addcontentsline{toc}{chapter}{\protect\numberline{15}{Über Claus Bernet}}
 \include{claus_vita}
+
+
+\thispagestyle{empty}
 % ---- leere Seiten
 \null\newpage
 \cleardoublepage
 \shipout\null
+\thispagestyle{empty}
 
 
+% \pagestyle{plain}
+% \cleardoublepage
+% \shipout\null
+
+% \pagestyle{plain}
+% \cleardoublepage
+% \shipout\null
 
 \vspace{\fill}
 
@@ -253,6 +270,9 @@ gelesen werden (oder auch gar nicht).
 \medskip
 Originaltitiel:\\
 \textit{No Cross No Crown}\\
+
+Cover-Bild:\\
+Ein Ausschnitt eines Bildes von Jean Leon Gerome Ferris (1863–1930)\\
 
 Herausgeber:\\
 \copyright{} Olaf Radicke, \copyright{} Claus Bernet\\
@@ -271,8 +291,8 @@ ISBN: 978-3-8391-2608-0
 }}
 %\pagebreak 
 %\newpage
-%\cleardoublepage
-%\shipout\null
+% \cleardoublepage
+% \shipout\null
 
 \end{document}
 
