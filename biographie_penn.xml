@@ -1,0 +1,207 @@
+% Bemerkung zu Steuerzeichen:
+% Kommentare ohne Auswirkung des Ausgabeformats werden mit "%" (Prozentzeichen)
+% am Anfang der Zeile markiert. Alles hinter diesem Zeichen kann korrigiert
+% werden. Es können auch Editor-Kommentare hinterlassen werden, um auf
+% Korrekturprobleme hinzuweisen
+%
+% Steuerbefehle beginnen fast immer mit "<br />" und sind so zu belassen zum Beispiel:
+% <br />begin<node class="non">x</node>
+% <br />end<node class="non">x</node>
+% <br />smallskip
+% <medskip />
+% <node class="label">x</node>
+% <node class="pageref">x</node>
+%
+% Ausnahme ist:
+% <node class="footnote">Y</node>
+% <node class="textit">Y</node>
+% <node class="textbf">Y</node>
+% Hier ist jeweils der Text (Y) in den geschweiften Klammern "<node class="non"></node>" zu
+% korrigieren.
+%
+% Bei dem Steuerbefehl...
+%<node class="index">X!Y</node>
+% Ist X und Y zu korrigieren aber nicht das "!". Bei "!" handelt es sich
+% um ein Steuerzeichen, was unverändert bleiben muss.
+
+
+<br />begin<node class="non">flushright</node>
+<br />begin<node class="non">footnotesize</node>
+<node class="textit">Von Claus Bernet <br />& Olaf Radicke</node>
+<br />end<node class="non">footnotesize</node>
+<br />end<node class="non">flushright</node>
+<br />smallskip
+
+Die frühen Quaker waren wirklich ein bunter Haufen. Es war so ziemlich alles
+unter ihnen zu finden: ehemalige Soldaten der New Model Army<node class="index">New Model
+Army</node>, Musikanten, Handwerker, Hausfrauen, Bauern, Händler... einfach alles.
+Die Mennoniten waren &mdash;
+zum Beispiel als Vergleich &mdash; wesentlich homogener in ihrer sozialen Zusammensetzung.
+Aber
+William Penn war selbst unter Quakern noch Mal etwas Besonderes. Er stammt aus
+dem Adel und hatte einflussreiche Kontakte in die höchsten Kreise. An einigen
+Stellen lässt er das im Text auch durchscheinen. So beschreibt er auf
+Seite <node class="pageref">kap9_ab2_duell_penn</node> das Erlebnis eines Duells
+mit einem anderen Mann (ebenfalls aus dem Adel), der mit einem Degen auf ihn los
+geht<node class="footnote">Der Besitz eines
+Degens war dem Adel vorbehalten.</node>. An einer anderen Stelle im Text auf
+Seite <node class="pageref">15_04_penn_alte_freunde</node> will er den Adel als Adressat seiner
+Botschaft ansprechen. Das tut er, indem er sich ihm als seinesgleichen zu erkennen
+gibt:
+<node class="textit"><quote lang="de">Untersucht doch nur, inwiefern euer Leben und euere Gesinnungen mit
+diesen heiligen Vorschriften und Beispielen der Selbstüberwindung
+übereinstimmen. O Meine Freunde! Meine Seele trauert über euch! Ich lebte einst
+selbst mit euch und in eurer Mitte.</quote></node>
+
+<medskip />
+
+Penn wurde am 14. Oktober 1644 in London<node class="index">Orte:!London</node> geboren, als ältester Sohn von Sir William Penn
+(1621-1670), einem angesehenen Admiral, und
+seiner Frau Margaret Jasper (um 1610-1682)<node class="personenindex">Jasper, Margaret</node>,
+die familiäre Verbindungen nach Irland<node class="index">Orte:!Irland</node> hatte.
+<medskip />
+
+Als Penn sich zum Quakertum bekannte, wurde er von seinem Vater verstoßen.
+Sein Vater ließ es sich jedoch trotzdem nicht nehmen, sich immer wieder für seinen
+Sohn einzusetzen, wenn dieser mal wieder
+wegen seiner quakerischen Überzeugungen im Gefängnis saß. Aber noch
+kurz vor dem Tod des Vaters gab es eine Versöhnung zwischen den beiden. Während
+einer seiner Gefängnisaufenthalte in Newgate<node class="index">Gefängnis!Newgate</node> oder dem Tower zu London (von dem er selber im Vorwort schreibt) entstand
+das Buch <quote lang="de">Ohne Kreuz keine Krone</quote>.
+
+<medskip />
+
+Penn selbst war zweimal verheiratet. Das erste Mal heiratete er 1672 die
+Quakerin Gulielma Maria Springett (gest. 1694)<node class="personenindex">Springett, Gulielma Maria</node>. Aus dieser Ehe sind sieben Kinder
+hervorgegangen, darunter William (gest. 1720) und Lätitia (genannt Letty)<node class="personenindex">Penn, Lätitia 'Letty'</node>. Nach dem tragischen Tod seiner Frau
+durch eine langwierige Erkrankung heiratete Penn 1696 erneut. Mit seiner zweiten
+Ehefrau Hannah Callowhill (1670-1726)<node class="personenindex">Callowhill, Hannah</node> hatte
+er sechs Kinder, darunter Margaret, John, Richard, Dennis und Thomas (1702-1775)<node class="personenindex">Penn, Thomas</node>.
+
+<medskip />
+
+Im Gegensatz zu anderen prominenten Quakern wie Nayler,<node class="personenindex">Nayler,
+James</node> Fox<node class="personenindex">Fox, George</node> und Fell<node class="personenindex">Fell,
+Margaret</node> war er nicht nur sehr produktiv hinsichtlich Korrespondenz und
+Flugblättern<node class="index">Flugblätter</node>, sondern er schrieb auch eine Reihe von
+Büchern<node class="footnote">Insgesamt verfasste Penn etwa fünfzig Schriften.</node>.
+Das wohl bekannteste &mdash; noch vor <node class="textit"><quote lang="de">Ohne Kreuz keine Krone</quote></node> &mdash; ist
+<node class="textit"><quote lang="de">Früchte der Einsamkeit</quote></node>. Das Buch <node class="textit"><quote lang="de">Ohne Kreuz keine
+Krone</quote></node> steht in der Gattung zwischen den anekdotenhaften Journals
+(Tagebücher) von Fox
+oder auch Woolman<node class="personenindex">Woolman, John</node> und theologisch trockenen
+Abhandlungen eines Robert Barclay<node class="personenindex">Barclay, Robert</node>. Das Buch
+bildet so auch sehr gut den Charakter von Penn im realen Leben ab: Einerseits
+handfester Pragmatiker, aber andererseits auch Visionär. Literarisch und im Leben
+eine mehr als glückliche Mischung, kann man sagen, auch wenn er selbst sich
+nicht als besonders erfolgreich erlebt haben mag. Denn er starb später, tief
+enttäuscht und verbittert vom Leben, am 30. Juli 1718 in Ruscombe, Berkshire<node class="index">Orte:!Berkshire</node><node class="footnote">Begraben wurde er in
+Jordans, Buckinghamshire. <node class="index">Orte:!Buckinghamshire</node></node>.
+
+<medskip />
+
+Doch nüchtern betrachtet hat Penn die Geschicke des jungen Quakertums
+beeinflusst wie kaum ein anderer. Das vorrangige Bild, welches nach wie vor weit
+verbreitet ist unter den Quakern, ist das der Quaker in Nordamerika. Dass sie
+dort so tiefe kulturelle und politische Spuren hinterlassen haben, ist in erster
+Linie Penn zu verdanken. Als sein Vater starb, stand der König in seiner Schuld.
+1681 beglich König Charles II. <node class="personenindex">Charles II., König</node> seine
+Schulden<node class="index">Schulden</node> an die Familie Penn, indem er William Penn mit einem
+Gebiet in Nordamerika (heute die Bundesstaaten Pennsylvania<node class="index">Orte:!Pennsylvania</node> und Delaware<node class="index">Orte:!Delaware</node>) belehnte und ihn
+zu dessen Gouverneur ernannte.
+
+<medskip />
+
+Das war die Grundlage für ein etwa achtzig Jahre währendes, in der Quakergeschichte
+&mdash; bisher &mdash; einmaliges Phänomen: Ein eigener Staat, mit eigener Verfassung und
+Gesetzgebung. Von Penn wurde es <quote lang="de">Heiliges Experiment</quote> genannt. In diesem Projekt
+stellten die Quaker ihre hohen Ideale in der rauen Realität der Politik auf die
+Probe. Viele Glaubensgemeinschaften vor ihnen, die genauso unter Verfolgung
+gelitten haben wie die Quaker, wurden später selber zu Tyrannen, die andere
+Glaubensgemeinschaften bis auf das Blut verfolgten. So gilt dies zum Beispiel für die
+Calvinisten<node class="index">Calvinisten</node>, die zunächst von der katholischen
+Kirche verfolgt wurden und dann in der Neuen Welt (in den Kolonien
+Nordamerikas) zu erbarmungslosen Verfolgern wurden. Was würde wohl aus den
+schwärmerischen Quakern werden, die andere immer so eindringlich wegen ihrer
+mangelnden Moral anklagten? Würden sie auch zu blutrünstigen Tyrannen werden?
+
+<medskip />
+
+Die Antwort lautet glücklicher Weise: Nein! Nach wie vor wurde der Kriegsdienst
+abgelehnt. Es war üblich, dass die Kolonien der Krone<node class="footnote">Vereinigtes
+Königreich Grossbritannien.</node> Soldaten ausheben und für militärische
+Aktivitäten zu Verfügung stellen mussten. Das taten die Quaker auch nicht. Statt
+dessen hatte Pennsylvania eine Strafzahlung zu leisten. Die Verfassung, die sich
+die Quaker in Pennsylvania gaben, war zu damaliger Zeit bahnbrechend: Persönliche
+Freiheit für die Kolonisten, Amtszugang und Gerichtsverfahren ohne
+Eidesleistung<node class="index">Eid</node>, weitgehende Einschränkung der Todesstrafe<node class="index">Todesstrafe</node>, Respektierung der Rechte von Ureinwohnern<node class="index">Ureinwohnern</node>. Penn erwarb sich sogar Sprachkenntnisse<node class="index">Sprachkenntnis</node> der Lenni Lenape<node class="personenindex">Lenni Lenape</node>, nicht
+um diese zu bekehren, sondern um mit ihnen in direkte Verhandlungen treten zu
+können und um ihre Lebenswelt besser verstehen zu können. Der faire Umgang und
+Handel mit den Ureinwohnern führte immer wieder zu Konflikten mit den
+benachbarten Kolonien, da diese die Indianer regelmässig übervorteilten und
+die Quaker deshalb als Handelspartner von den Ureinwohnern bevorzugt wurden.
+Auch unter den ständigen Indianerüberfällen und Entführungen
+hatten die Quaker nicht zu leiden, was auch zu Missgunst führte. Für Penn jedoch
+wurde die Kolonie finanziell zu einem Mißerfolg, was ihm 1707 sogar eine
+Inhaftierung<node class="index">Inhaftierung</node> wegen Überschuldung einbrachte.
+
+<medskip />
+
+Was die Religionsfreiheit betraf, wurde das Ideal der religiösen Toleranz für
+alle
+christlichen Bekenntnisse tatsächlich umgesetzt. Es gab nur eine Ausnahme: den
+Katholizismus<node class="index">Katholizismus</node>! Das ist insofern erstaunlich, da Penn
+seinen politischen Höhepunkt unter James II.,<node class="personenindex">James II.</node> in der Zeitspanne von 1685 bis 1688 erreichte. James II. war ein
+katholischer König, für den er am Oranischen Hause<node class="index">Oranien</node> in
+den Niederlanden<node class="index">Orte:!Niederlanden</node> diplomatisch tätig war, um die Zustimmung zur
+Abschaffung des <node class="textit">Test Act</node><node class="index">Test Act</node>, eines gegen Katholiken gerichteten Eides,
+den Staatsdiener zu leisten hatten, zu gewinnen. Penns grösster
+Erfolg war die Formulierung
+der <node class="textit"><quote lang="de">Declaration of Indulgence</quote></node> 1687, mit der nicht allein Quaker
+staatlicherseits toleriert wurden, sondern der Theorie nach sogar alle
+Religionsangehörige, nicht jedoch Atheisten<node class="index">Atheisten</node>. Als
+hingegen 1688 Wilhelm von Oranien (1650-1702)<node class="personenindex">Oranien,
+Wilhelm von</node> intervenierte, wurde Penn als angeblicher
+Jesuit<node class="index">Jesuiten</node> inhaftiert. In den folgenden Jahren konnte er
+seinen vormaligen politischen Einfluss am Königshofe<node class="index">Königshof</node> nicht
+wieder herstellen.
+
+
+
+<medskip />
+
+Nun, wer sich mit der Quakergeschichte intensiver beschäftigt, wird feststellen,
+dass die Kontakte zwischen katholischer Kirche und Quakern schwierig und
+bisweilen tödlich waren (für Quaker). Doch noch kurz zurück zum <node class="textit">Heiligen
+Experiment</node>: Penn drückte der Kolonie auch seinen Stempel als Städtegründer
+bzw. Stadtplaner auf. Er gründete die Stadt <quote lang="de">Philadelphia</quote> mit einem strengen, geraden
+Straßennetz. Philadelphia City ist eine der ältesten Städte der heutigen USA. Es gab
+bis 1986 das ungeschriebene Gesetz, dass kein Gebäude höher gebaut werden sollte
+als die <node class="textit">Philadelphia City Hall</node><node class="index">Orte:!Philadelphia</node>,
+auf dessen Spitze eine Statue von Penn thront. Es gibt wohl nicht wenige in
+Philadelphia City, die den Misserfolg ihres Sportclubs
+mit dem Bruch dieses ungeschrieben Gesetzes in Zusammenhang bringen und daher einen Fluch vermuten.
+Fluch hin oder her, es zeigt, dass Penn einem in der USA immer noch auf
+Schritt und Tritt
+begegnet.
+%hier habe ich eine Abschnitt gelöscht, den ich nicht verstanden habe und der nix mit dem vorherigen zu tun hat. Wir kommen
+%ansonsten immer weiter von der Lebensgeschichte Penns, dem eigentlichen Thema, weg.
+
+<medskip />
+
+Penn war auch persönlich in Deutschland missionarisch tätig. Er reiste 1671 und 1677
+nach Norddeutschland<node class="index">Orte:!Deutschland!Nord-</node> und gelangte bis an den Hof
+der Äbtissin Elisabeth (1618-1680)<node class="personenindex">Elisabeth, Äbtissin</node>. Vor
+allem in Frankfurt<node class="index">Orte:!Frankfurt</node> warb Penn später, unter den dortigen
+Pietisten,
+Kolonisten<node class="index">Pietisten</node> für seine nordamerikanischen<node class="index">Orte:!Nordamerika</node> Besitztümer. Das Interesse von Penn an Kontinentaleuropa war
+aber nicht nur missionarischer Natur. Die zahllosen Kriege und Konflikte brachten
+ihn zu pazifistischen<node class="index">Pazifismus</node>
+Überlegungen; hin zu einem europäischen Frieden<node class="index">Friede!europäischer</node> in
+Wohlstand<node class="index">Wohlstand</node> und Gerechtigkeit<node class="index">Gerechtigkeit</node>. Diese Überlegungen, die
+zwischen 1691 bis 1693 entstanden, sind in <node class="textit"><quote lang="de">An Essay Toward the Present and Future
+Peace of Europe</quote></node> (In Deutsch erschienen unter dem Titel <node class="textit"><quote lang="de">William Penns
+Friedensplan für Europa</quote></node>) niedergelegt. Das Maßgebliche Instrument zur
+Erreichung dieser Ziele sah er in der Einrichtung eines Europäischen Parlaments<node class="index">Parlament!Europäisches</node>.
+
+

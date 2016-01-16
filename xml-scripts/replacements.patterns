@@ -1,0 +1,28 @@
+
+s/[\\]begin{description}/<description>/g
+s/[\\]biblecite{/<node class="biblecite">/g
+s/[\\]chapter{/<node class="chapter">/g
+s#[\\]dotfill#<dotfill />#g
+s/[\\]editnote{/<node class="editnote">/g
+s#[\\]end{description}#</description>#g
+s/[\\]editnote{/<node class="editnote">/g
+s/[\\]footnote{/<node class="footnote">/g
+s/[\\]index{/<node class="index">/g
+s/[\\]item\[/<paramnode class="item">/g
+s/[\\]label{/<node class="label">/g
+s#[\\]medskip#<medskip />#g
+s#[\\]newpage#<newpage />#g
+s/[\\]pageref{/<node class="pageref">/g
+s/[\\]personenindex{/<node class="personenindex">/g
+s/[\\]section{/<node class="section">/g
+s/[\\]textbf{/<node class="textbf">/g
+s/[\\]textit{/<node class="textit">/g
+s/[\\]texttt{/<node class="texttt">/g
+s#"`#<quote lang="de">#g
+s#"'#</quote>#g
+s#}#</node>#g
+s#]#</paramnode>#g
+s#~# #g
+s/{/<node class="non">/g
+s#[\-][\-]#\&mdash;#g
+s#\\#<br />#g

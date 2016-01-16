@@ -12,3 +12,6 @@ Zum erstellen eines PDF-Dokuments kann das Bash-Skript ***make_pdf.sh***
 verwendet werden. Dazu wird eine vollständige 
 [LaTeX-Umgebung](https://de.wikipedia.org/wiki/LaTeX) benötigt.
 
+# markdown projekt #
+
+plastex

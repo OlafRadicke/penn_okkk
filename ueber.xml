@@ -1,0 +1,153 @@
+
+
+<br />part<node class="non">Über dieses Buch</node>
+
+
+<node class="chapter">Für wen ist dieses Buch?</node>
+
+Diese Ausgabe hat das Ziel, den über dreihundert Jahre alten Text dem Leser
+so leicht wie möglich zugänglich und verständlich zu machen. Grundlage
+des Textes ist eine Übersetzung von 1825<node class="footnote">
+Titel: <quote lang="de">Ohne Kreuz keine Krone</quote> &mdash;
+Entstehungsdatum: 1825, &mdash;
+Erscheinungsdatum: 1826, &mdash;
+Verlag: Georg Uslar, &mdash;
+Drucker: Heinrich Gelpke, &mdash;
+Erscheinungsort: Pyrmont (Bad-Pyrmont),&mdash;
+Übersetzer: vermutlich Ludwig Seebohm, &mdash;
+Originaltitel: No Cross No Crown, &mdash;
+Quelle: <node class="textbf">http://de.wikisource.org/wiki/Ohne<br />_Kreuz<br />_keine<br />_Krone</node></node>. Es
+ist nicht Ziel dieser Ausgabe, diesen Text in seinem historischen Originalzustand wiederzugeben, um zum Beispiel daraus als Quelle zu zitieren. Fehler, die im
+Urtext enthalten sind &mdash; zum Beispiel fehlerhafte Nummerierungen &mdash;, wurden hier nicht
+übertragen. Wer mit dem Quelltext zu wissenschaftlichen Zwecken arbeiten will,
+sei hier auf <node class="texttt">http://de.WikiSource.org</node> verwiesen, wo er den
+Originaltext als Scan findet.
+
+<medskip />
+
+Um der Zielstellung (den Text möglichst vielen Lesern zugänglich zu machen)
+gerecht zu werden, haben wir eine Reihe von Änderungen und Ergänzungen gemacht.
+Zum einen haben wir den Text der modernen Rechtschreibung angepasst. Die
+Interpunktion wurde der heutigen Verwendung angepasst. An einigen wenigen Stellen
+wurden die Sätze, zur besseren Verständlichkeit, ein wenig umgestellt. An vielen
+Stellen wurden Wörter ersetzt, die heute ungebräuchlich und deshalb
+unverständlich sind, oder, wenn sich die Bedeutung von Wörtern geändert hat. So
+hat das Wort <node class="textit">Geiz</node> in der Vergangenheit einen starken Bedeutungswandel
+erfahren. Früher war in erster Linie das damit gemeint, was wir heute als
+<node class="textit">Gier</node> bezeichnen würden. So haben wir also im kompletten Text
+<node class="textit">Geiz</node> durch <node class="textit">Gier</node> ersetzt<node class="footnote">Wer zu diesem konkreten
+Beispiel mehr wissen will, der sei auf den Artikel <quote lang="de">Geiz</quote> in de.Wikipedia.org
+verwiesen.</node>. In der folgenden Tabelle sind einige
+weitere Beispiele für Wörter, die wir ersetzt haben, aufgeführt. An allen
+Stellen, wo Wörter ersetzt wurden, haben wir das mit einer Fußnote kenntlich
+gemacht.
+
+<medskip />
+
+<br />begin<node class="non">center</node>
+<node class="label">ref:tab_wortersetzungen</node>
+<br />begin<node class="non">tabular</node><node class="non">|l|l|</node> <br />hline
+<node class="textbf">Original</node>       & <node class="textbf">Ersetzung</node>            &mdash; <br />hline <br />hline
+allezeit                & immer                         &mdash; <br />hline
+arge                    & böse                          &mdash; <br />hline
+einerlei                & gleichen                      &mdash; <br />hline
+figürlicher             & sinnbildlicher                &mdash; <br />hline
+fleischlichen           & materiellen/weltlichen        &mdash; <br />hline
+Geiz                    & Gier                          &mdash; <br />hline
+gehörig                 & richtig                       &mdash; <br />hline
+hofartig                & hochmütig                     &mdash; <br />hline
+lautere                 & erliche                       &mdash; <br />hline
+reiflich erwägest       & genau prüfst                  &mdash; <br />hline
+unbillig                & in Irrtum                     &mdash; <br />hline
+uneingedenk             & ungeachtet                    &mdash; <br />hline
+Üppigkeit               & Verschwendung/Masslosigkeit   &mdash; <br />hline
+Vergleichung            & Konkurrenz                    &mdash; <br />hline
+vertilgen               & vernichten                    &mdash; <br />hline
+Weiber genommen         & geheiratet                    &mdash; <br />hline
+<br />end<node class="non">tabular</node>
+<br />end<node class="non">center</node>
+<medskip />
+
+<medskip />
+
+Als weitere Hilfestellung für den Leser haben wir noch einige erklärende
+Begleittexte verfasst. Im hinteren Teil gehen wir noch einmal in separaten
+Abschnitten darauf ein, was es Interessantes zur Entstehungsgeschichte des
+Textes zu sagen gibt; wer der Autor war und was für ein Leben er führte; und wie
+sich das Quakertum seit der Entstehung des Textes weiter entwickelt hat.
+
+<node class="chapter">Wie man das Buch lesen sollte</node>
+
+Man kann das Buch selbstverständlich von vorne nach hinten durchlesen. Man kann aber auch nur den Text
+von William Penn lesen und den Rest weglassen. Ich bin aber der Meinung, man kann
+durchaus auch, mitten in den Text, irgendwo hineinspringen. Ich glaube, man
+erfährt eine ganze Menge über das Denken der frühen Quaker, auch wenn man nicht
+alles oder chronologisch gelesen hat.
+
+<medskip />
+
+Für diejenigen, die vom Quakertum nur wenig oder gar nichts wissen, empfehle ich
+ schon, mit dem Kapitel über die Quakergeschichte zu beginnen
+ (<node class="textit">Seite <node class="pageref">ref:entwicklung_quakertum</node></node>).
+
+<medskip />
+
+Für diejenigen, die sich nur für bestimmte Aspekte des Quakertums interessieren oder
+sich erst einmal <node class="textit">Appetit</node> holen wollen, empfehle ich, sich mit der
+(chronologischen) Themenübersicht im Anhang zu beschäftigen
+(<node class="textit">Seite <node class="pageref">ref:theme_nuebersicht</node></node>).
+
+<node class="chapter">Typographische Konventionen</node>
+
+In dem Buch wird der Begriff <quote lang="de">Quaker</quote> <node class="index">Quaker!Schreibweise</node> in seiner
+englischen originalen Schreibweise verwendet. Mir scheint es nicht sinnvoll
+<quote lang="de">Quäker</quote> zu schreiben. Englische Begriffe wie <quote lang="de">Safe</quote> werden im Deutschen
+auch nicht <quote lang="de">Säfe</quote> geschrieben. Ich vermag also kein Sinn darin zu sehen
+<quote lang="de">Quäker</quote> zu schreiben.
+
+<medskip />
+
+
+Es gibt zwei verschiedene Fußnoten in dem Abschnitt des Textes von <quote lang="de">Ohne Kreuz
+keine Krone</quote>. Die Fußnoten in normaler Schrift sind die des Autors des
+Originaltextes &mdash; also William Penn (und mit einer Ausnahme: Ludwig Seebohm, der vermutliche Übersetzer).
+Hingegen werden Fußnoten der Herausgeber in
+<node class="texttt">Maschinenschrift kenntlich gemacht</node>. Das sind meist Anmerkungen zu
+textlichen Veränderungen oder Erklärungen. Bibelzitate werden durch einen kleine Raute $<br />diamond$<br />marginpar<node class="non"><br />footnotesize<node class="non">Rand&mdash;bemerkung</node></node> makiert und am Rand wird die genaue Stelle bezeichnet.
+
+<medskip />
+
+Einige Stellen sind mit <node class="textbf">Fettschrift herausgestellt</node>. Das soll dem Leser
+helfen, auf wichtige Kernaussagen aufmerksam zu werden. Es gibt einige langatmige
+Passagen, in denen sich Penn in Widerlegungen seiner Gegner auslässt, die
+heute von ihrer Bedeutung kaum noch von Belang sind. So zum Beispiel der Abschnitt im
+<quote lang="de">10. Kapitel</quote> (<node class="textit">Seite <node class="pageref">kap10</node> &mdash; <node class="pageref">kap10_ende</node></node>) über
+Ehrentitel, die heute ohnehin nicht mehr gebräuchlich sind. Trotzdem gibt es
+(auch hier) einige Sätze, die die Dinge sehr prägnant auf den Punkt bringen.
+Diese haben wir mit Fettschrift herausgestellt.
+
+<node class="chapter">Nutzungs- und Urheberrechte</node>
+Der Urtext im Original von William Penn ist <node class="textit">gemeinfrei</node>. Er ist im Internet
+unter dieser Adresse zu finden:
+
+<br />begin<node class="non">center</node>
+<node class="texttt">http://de.wikisource.org/wiki/Index:Penn<br />_Ohne<br />_Kreuz<br />_keine<br />_Krone</node>
+<br />end<node class="non">center</node>
+
+Dasselbe gilt für die Bilder, die für den Umschlag verwendet wurden. Sie sind zu finden unter:
+
+<br />begin<node class="non">center</node>
+<node class="texttt">http://commons.wikimedia.org/wiki/File:William<br />_Penn.png</node>&mdash;
+<node class="texttt">http://www.loc.gov/pictures/item/99401118/</node>&mdash;
+und&mdash;
+<br />begin<node class="non">footnotesize</node>
+<node class="texttt">http://commons.wikimedia.org/wiki/File:Treaty<br />_of<br />_Penn<br />_with<br />_Indians<br />_by<br />_Benjamin<br />_West.jpg</node>&mdash;
+<br />end<node class="non">footnotesize</node>
+<br />end<node class="non">center</node>
+
+Die Bearbeitungen, Fußnoten, Einleitungen, Anmerkungen, Erläuterungen und
+Extra-Kapitel unterstehen dem Urheberrecht von Claus Bernet und Olaf Radicke.
+
+
+
+
