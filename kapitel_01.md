@@ -9,13 +9,14 @@ Wichtigkeit ist, so wird dennoch diese Lehre, (ich sage es mit tiefer
 Betrübnis!) so wenig verstanden, so sehr vernachlässigt, und (was noch
 schlimmer ist) es wird ihr durch die Eitelkeit, den Aberglauben, und die
 Unmäßigkeit der Christentumsbekenner so bitter widersprochen, dass wir entweder
-aufhören müssen, zu glauben, was der Herr Jesus Lukas 24,27. uns sagt, wo er
-nämlich erklärt,
-*"dass niemand, der nicht sein Kreuz trägt und ihm nachfolgt, sein Jünger sein könne,"*
-oder, (wenn wir dieses als Wahrheit annehmen) nicht anders
+aufhören müssen, zu glauben, was der Herr Jesus[^1k1s1] uns sagt, wo er
+nämlich erklärt, *"dass niemand, der nicht sein Kreuz trägt und ihm nachfolgt,*
+*sein Jünger sein könne,"* oder, (wenn wir dieses als Wahrheit annehmen) nicht anders
 schließen können, als dass die Mehrheit der Bekenner des christlichen Namens, in
 der großen Angelegenheit der Religion und ihres eigenen Heils, auf eine
 bejammernswerte Art sich täuscht und selbst betrügt.
+
+[^1k1s1]: Lukas 24,27.
 
 ## 2. Abschnitt ##
 
@@ -26,8 +27,9 @@ ungeachtet der gnädigen Vorteile des Lichts und der Erkenntnis, und der
 Aufmunterungen zur Treue, welche in diesen letzten Jahrhunderten durch die
 Erscheinung, das Leben, die Lehren und Wunder, durch den Tod, die Auferstehung
 und Himmelfahrt Christi, nebst den Gaben seines heiligen Geistes den Menschen
-verliehen worden sind,
-__ungeachtet der Schriften, Arbeiten, Leiden und Erduldungen des Martertodes seiner teueren Zeugen in allen Zeiten, nicht viel mehr als der bloße Name vom wahren Christentum übrig geblieben zu sein scheint.__
+verliehen worden sind, __ungeachtet der Schriften, Arbeiten, Leiden und__ 
+__Erduldungen des Martertodes seiner teueren Zeugen in allen Zeiten, nicht viel__ 
+__mehr als der bloße Name vom wahren Christentum übrig geblieben zu sein scheint.__
 Und wo nun die alte heidnische Natur der Menschen sich dieses Namens
 anmaßt, oder ihr zügelloses Leben damit zu bedecken sucht, da sind die Bekenner
 desselben in der Tat nichts anderes, als wirkliche, wiewohl verkleidete Heiden.
@@ -35,7 +37,7 @@ Denn wenn sie auch nicht dieselben Götzen der Heiden anbeten, so beten sie doch
 Christum mit einem heidnischen Herzen an; und sie können auch nicht anders, so
 lange sie in gleichen heidnischen Lüsten leben. So gehören also beide: der
 Christ, der sich nicht selbst überwindet, und der zügellose Heide, zu einer und
-derselben Religion<node class="index">Heide</node>. Beide haben freilich 
+derselben Religion. Beide haben freilich 
 verschiedene Gegenstände, an welche sie ihre Gebete richten, allein ihre 
 Anbetung ist doch nur erzwungen und bloße Zeremonie. Denn die Gottheit, die sie 
 im wahren Sinne verehren, ist der Gott dieser Welt, der große Beherrscher der 
@@ -47,9 +49,10 @@ Besitzungen ausdehnen, unsere Namen und Familien in der Welt berühmt machen und
 verewigen? - Diese niedrige Sinnlichkeit fasst der geliebte Apostel Johannes 
 sehr kurz und nachdrucksvoll in einigen Worten zusammen:
 *"Fleischeslust, Augenlust und hochmütiges[^1k2s1] Leben,"* sagt er,
-*"sind nicht vom Vater, sondern von der Welt,"* Johannes 2,16. die im Argen liegt.
+*"sind nicht vom Vater, sondern von der Welt,"*[^1k2s2] die im Argen liegt.
 
 [^1k2s1]: 'hofartiges' ersetzt durch 'hochmütiges'. (Anm. d. Red.)
+[^1k2s2] Johannes 2,16.
 
 ## 3. Abschnitt ##
 
@@ -164,99 +167,87 @@ befriedigen.
 
 ## 6. Abschnitt ##
 
-Möchte doch keiner seine eigene Seele betrügen!
-*"<node class="textit">Man kann nicht Trauben von Dornen, oder Feigen von Disteln sammeln.</node>"*<node class="biblecite">Matthäus 7,16.</node><node class="non">Matthäus 07@Matthäus 7</node>
-Ein Wolf ist kein Lamm und ein Geier keine Taube.
+Möchte doch keiner seine eigene Seele betrügen! *"Man kann nicht Trauben von* 
+*Dornen, oder Feigen von Disteln sammeln."*[^1k6s1] Ein Wolf ist kein Lamm und 
+ein Geier keine Taube.
 Zu welcher äußeren Religionsform, zu welcher religiösen Gesellschaft, oder zu
 welcher Kirche du dich auch bekennst, so ist es eine an dich und alle Menschen
 gerichtete Wahrheit Gottes, dass diejenigen, welche die Form und den Schein der
 Gottseligkeit haben, aber durch ihr ungöttliches Leben die Kraft derselben
 verleugnen, nicht die wahre, sondern die falsche Kirche ausmachen, die, obgleich
-sie sich den Titel der Braut<node class="index">Braut Christi</node> des Lammes<node class="index">Lamm!Gottes</node>, oder der Kirche Christi, beilegt,
-dennoch jenes große Geheimnis, oder *"die geheimnisvolle <node class="textit">Babylon</node>"*
-<node class="index">Orte:!Babylon</node> <node class="index">Hure Babylon</node> ist, welche der heilige
-Geist so passend
-<node class="textit">*"die Mutter der Hurerei und aller Gräuel auf Erden"*</node><node class="biblecite">Offenbarung 17,5.</node><node class="non">Offenbarung 17</node>
-nennt, weil
+sie sich den Titel der Braut des Lammes, oder der Kirche Christi, beilegt,
+dennoch jenes große Geheimnis, oder *"die geheimnisvolle Babylon"* ist, welche 
+der heilige Geist so passend *"die Mutter der Hurerei und aller Gräuel auf* 
+*Erden"*[^1k6s2] nennt, weil
 sie von der christlichen Keuschheit und Reinheit ausgeartet ist, in alle Gräuel
 des heidnischen Babylon, einer prachtvollen Stadt der Vorzeit, die als Sitz der
 babylonischen Könige und der größten Hoffart und Üppigkeit in der damaligen
 Welt berühmt war. Was nun dieses mystische Babylon damals war, das ist sie auch
 noch jetzt: die größte Feindin der Sache und des Volks Gottes.
 
+[^1k6s1]: Matthäus 7,16.
+[^1k6s2]: Offenbarung 17,5.
+
 ## 7. Abschnitt ##
 
 Es bleibt auch wahr, dass die, welche vom Fleische geboren sind,
-diejenigen, welche aus dem Geiste geboren sind und die <node class="textit">Beschneidung des
-Herzens</node> <node class="index">Beschneidung!des Herzens</node> erfahren haben,<node class="biblecite">Galater 4,29.</node><node class="non">Galater 04@Galater 4</node>
-hassen und verfolgen, weil sie nach
+diejenigen, welche aus dem Geiste geboren sind und die *Beschneidung des*
+*Herzens*  erfahren haben,[^1k7s1] hassen und verfolgen, weil sie nach
 Babylons Erfindungen, Lehrarten und Vorschriften Gott nicht verehren und
 anbeten, und weder ihre nichtigen Traditionen als Lehren annehmen, noch im Leben
 und Wandel nach ihren verderbten Moden und Gebräuchen sich bequemen können.
 Wo dieses nun der Fall ist, da verwandelt die Abtrünnige sich in eine
-Verfolgerin.
--- Denn es ist nicht genug, dass sie selbst von der ersten Reinheit des
-Christentums abgewichen ist;
-Nein!
-Andere sollen es ihr auch nachtun.
+Verfolgerin. -- Denn es ist nicht genug, dass sie selbst von der ersten Reinheit 
+des Christentums abgewichen ist; Nein! Andere sollen es ihr auch nachtun.
 Darum lässt sie auch denen, die an ihrer Ausartung keinen Anteil haben oder ihr
-Malzeichen<node class="editnote">Anmerkung: Vermutlich die Anspielung auf Offenbarung 13,16.</node>
-<node class="index">Bibelstellen:!Offenbarung 13)</node>
-nicht annehmen wollen, keine Ruhe.
--- Wer ist auch wohl weiser als sie, die Mutterkirche?<node class="index">Kirche!Mutterkirche</node>
-Und wer kann mit dem Tiere, auf dem sie reitet, streiten?
+Malzeichen[^1k7s2] nicht annehmen wollen, keine Ruhe. -- Wer ist auch wohl 
+weiser als sie, die Mutterkirche? Und wer kann mit dem Tiere, auf dem sie 
+reitet, streiten?
+
+[^1k7s1]: Galater 4,29.
+[^1k7s2]: Vermutlich die Anspielung auf Offenbarung 13,16. (Anm. d. Red.)
 
 
-
-Die Abtrünnigen und Abergläubigen<node class="index">Aberglaube</node> sind immer stolz auf ihren Irrtum und
-unduldsam gegen andere, die nicht ihrer Meinung sind.
-Alle sollen ihnen beistimmen oder umkommen.
-Daher werden
-<node class="textit">*"die erschlagenen Zeugen und das Blut der Seelen unter
-dem Altare"*</node><node class="biblecite">Offenbarung 6,9.</node><node class="non">Offenbarung 06@Offenbarung 6</node>
-innerhalb der Mauern dieser geheimnisvollen Hure Babylon, dieser großen, festen Stadt
-der falschen Christen, gefunden, und von dem heiligen Geist in der Offenbarung
-ihr zur Last gelegt werden.
+Die Abtrünnigen und Abergläubigen sind immer stolz auf ihren Irrtum und
+unduldsam gegen andere, die nicht ihrer Meinung sind. Alle sollen ihnen 
+beistimmen oder umkommen. Daher werden *"die erschlagenen Zeugen und das Blut*
+*der Seelen unter dem Altare"*[^1k7s3] innerhalb der Mauern dieser geheimnisvollen 
+Hure Babylon, dieser großen, festen Stadt der falschen Christen, gefunden, und 
+von dem heiligen Geist in der Offenbarung ihr zur Last gelegt werden.
 Es ist freilich nicht zu bewundern, dass sie, die zuerst den Herrn kreuzigte,
-hernach auch seine Knechte tötete,
-aber höchst sonderbar und zugleich grausam ist es, dass sie ihren Bräutigam
-töten, ihren Heiland ermorden kann,
+hernach auch seine Knechte tötete, aber höchst sonderbar und zugleich grausam 
+ist es, dass sie ihren Bräutigam töten, ihren Heiland ermorden kann,
 da sie doch diese beiden Benennungen, die ihr so viel eingebracht haben, so sehr
-zu lieben scheint, und auch durch dieselben,
--- wiewohl ohne allen gerechten Anspruch, --
-sich immer noch zu empfehlen sucht.
+zu lieben scheint, und auch durch dieselben, -- wiewohl ohne allen gerechten 
+Anspruch, -- sich immer noch zu empfehlen sucht.
 Indessen sind ihre Kinder, durch ihren fortwährenden Ungehorsam gegen die
 Offenbarung des göttlichen Lichts in ihren Seelen, so gänzlich unter die
 Herrschaft der Finsternis geraten, dass sie vergessen haben, was der Mensch
 einst war, oder was sie jetzt sein sollten, und wahres reines Christentum, wenn
-sie es antreffen, nicht einmal kennen
-wiewohl sie sich viel darauf einbilden, zu der Zahl der Bekenner desselben zu
-gehören.
-Ihre Begriffe vom Heil der Seele sind so fleischlich und falsch, dass sie Gutes
-bös und Böses gut nennen.
+sie es antreffen, nicht einmal kennen wiewohl sie sich viel darauf einbilden, 
+zu der Zahl der Bekenner desselben zu gehören. Ihre Begriffe vom Heil der Seele 
+sind so fleischlich und falsch, dass sie Gutes bös und Böses gut nennen.
 Sie halten Menschen wie Teufel für Christen, und Heilige für Teufel.
 -- Obgleich nun die Erwägung der gottlosen Ungebundenheit ihres Lebens, da
 dieselbe ihr Verderben nach sich zieht, schon das tiefste Bedauern erregen muss,
 so ist doch von allen Selbsttäuschungen, unter denen sie sich befinden,
 hinsichtlich ihres ewigen Zustandes, die verderblichste diese, dass sie in dem
 allgemeinen Wahn stehen, sie könnten Kinder Gottes sein, während sie im
-Ungehorsam gegen seine heiligen Gebote leben.
-Sie dürften sich für Jünger Jesu halten, obgleich sie sich weigern, sein Kreuz
-zu tragen, und sie könnten sich auch als Glieder seiner wahren Kirche
-betrachten, welche heilig und ohne Tadel sein sollen, ungeachtet sie ein
-unheiliges und tadelhaftes Leben führen.
+Ungehorsam gegen seine heiligen Gebote leben. Sie dürften sich für Jünger Jesu 
+halten, obgleich sie sich weigern, sein Kreuz zu tragen, und sie könnten sich 
+auch als Glieder seiner wahren Kirche betrachten, welche heilig und ohne Tadel 
+sein sollen, ungeachtet sie ein unheiliges und tadelhaftes Leben führen.
 So sind sie mitten in ihren Sünden im Frieden und halten sich in ihren
-Übertretungen für sicher.
-Ihre eitle Hoffnung betäubt ihre bessere Überzeugung und erstickt jede zarte
-Ermahnung zur Reue,
-so dass also ihr Irrtum in Ansehung ihrer Pflichten gegen Gott ebenso
-gefährlich als ihre Empörung gegen ihn ist. <node class="label">ref:01_07_selbstbetrug</node>
--- <node class="textbf">So wandeln sie an Abgründen und täuschen sich selbst mit
-schmeichelhaften Vorstellungen, bis das Grab sie verschlingt und das
-Gericht des lebendigen
-Gottes sie aus ihrer Schlafsucht weckt</node>, wo dann in der Qual der Gottlosen, als
-dem Lohne ihrer Werke, ihre armen unglücklichen Seelen ihren Irrtum empfinden
-werden.
+Übertretungen für sicher. Ihre eitle Hoffnung betäubt ihre bessere Überzeugung 
+und erstickt jede zarte Ermahnung zur Reue, so dass also ihr Irrtum in Ansehung 
+ihrer Pflichten gegen Gott ebenso gefährlich als ihre Empörung gegen ihn ist. -- 
+__So wandeln sie an Abgründen und täuschen sich selbst mit schmeichelhaften__ 
+__Vorstellungen, bis das Grab sie verschlingt und das Gericht des lebendigen__
+__Gottes sie aus ihrer Schlafsucht weckt__, 
+wo dann in der Qual der Gottlosen, als dem Lohne ihrer Werke, ihre armen 
+unglücklichen Seelen ihren Irrtum empfinden werden.
+
+[^1k7s3]: Offenbarung 6,9.
 
 ## 8. Abschnitt ##
 
