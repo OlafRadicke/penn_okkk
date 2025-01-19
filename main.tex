@@ -1,16 +1,45 @@
+% Generierung des Index:
+% \makeindex
+% \makeindex{person}
+% Der Befehl zum erstellen des Indexes lautet
+% bash make_pdf.sh
+
 
 % \documentclass[a5paper,pagesize,10pt]{scrbook}
-\documentclass[a5paper,pagesize,9pt]{scrbook}
+% \documentclass[a5paper,pagesize,9pt]{scrbook}
 % \documentclass[a5paper,pagesize,8pt]{scrbook}
+\documentclass[pdftex,pagesize, 10pt]{scrbook}
+%\documentclass[pdftex, pagesize,9pt]{scrbook}
+
+\setlength{\paperheight}{22cm}
+\setlength{\paperwidth}{17cm}
+
+\usepackage{typearea}
+\typearea{1}
+
+
 % \twocolumn \onecolumn
+% Für brüche all a 1/2 z.B.
+% $\nicefrac{1}{2}$
+\usepackage{nicefrac} 
 \usepackage{ngerman}
 \usepackage[utf8]{inputenc}
 \usepackage{makeidx}
 \usepackage[pdftex]{graphicx}
-\usepackage{floatflt}
+% \usepackage{floatflt}
 % für die Grapik
+% Ersatz für \usepackage{floatflt}
+\usepackage{wrapfig}
 \usepackage{tikz}
+% Endnoten
+\usepackage{endnotes}
+\renewcommand{\notesname}{Quellennachweis des lexikalischen Anhangs}
 
+%Paket um mehere Verzeichnisse haben zu können
+\usepackage{index}
+  \newindex{default}{idx}{ind}{Schlagwortverzeichnis}
+  \newindex{person}{adx}{and}{Personenverzeichnis}
+  \newindex{bibel}{bdx}{bnd}{Bibelstellen}
 
 %\pagestyle{headings}
 %Kapitelnummerierung:
@@ -28,21 +57,58 @@
 \vfuzz \hfuzz
 \raggedbottom
 
+% Randbemerkungen anpassen
+\setlength{\marginparsep}{4mm} % Mindestabstand vom Text
+%\setlength{\marginparwidth}{20mm} % Maximalbreite
 
-\makeindex{}
-% Der Befehl zum erstellen des Indexes lautet
-% makeindex -g -s ./main.ist ./main.idx
+% Definition um die Versionsnummer Zentrahl
+% ändern zu können
+\newcommand{\versionsnummer}{4.0}
+
+% Definiton des Komandos \personenindex
+% Indexeintrag für Personen
+\newcommand{\personenindex}[1]
+{\index[person]{{#1}}}
+
+% Definiton des Komandos \bibleindex
+% Indexeintrag für Bibelstellen
+\newcommand{\bibleindex}[1]
+{\index[bibel]{#1)}}
+%{\index{Bibelstellen:!#1)}}
+
+% Für seitliche Biblelangaben.
+
+\newcommand{\bibmarginpar}[1]
+{$\diamond$\marginpar{\begin{flushleft}\scriptsize{{#1}}\end{flushleft}}}
+
+
+% Definiton des Komandos \biblecite
+% Für Bibelzitate. Erster Wert ist die Randbemerung
+% Zeiter Wert ist der Indexeintrag
+\newcommand{\biblecite}[2]
+{\bibmarginpar{{#1}}{\bibleindex{#2}}}
+% \newcommand{\biblecite}[2]
+% {$\diamond$\marginpar{\scriptsize{{#1}}}{\bibleindex{#2}}}
+
+% Definiton des Komandos \editnote
+% Für Anmerkungen der Herrausgeber
+\newcommand{\editnote}[1]
+{\footnote{\texttt{{#1}}}}
 
 
 \begin{document}
+\thispagestyle{empty}
+
+\null\newpage
+\thispagestyle{empty}
+
 \author{
 Eine Abhandlung \\
-über die Eigenschaft und Wirkung
-\\
+über die Eigenschaft und Wirkung \\
 des heiligen Kreuzes Christi.
 \\
 \\
-Von
+Von dem Quäker
 \\
 \textbf{William Penn}
 }
@@ -53,7 +119,7 @@ Von
 Studienausgabe\\
 \vfill
 Herausgeber \\
-Claus Bernet \& Olaf Radicke
+Olaf Radicke, Claus Bernet \& Dorothea Meißner
 }
 
 \maketitle
@@ -62,11 +128,11 @@ Claus Bernet \& Olaf Radicke
 
 \tableofcontents
 
-\include{vorwort} % Toni Korrektur
+\include{vorwort}
 
 \mainmatter
 
-\include{ueber} % Toni Korrektur
+\include{ueber} 
 
 
 %Kapitelnummerierung für Hauptteil ausschalten:
@@ -81,7 +147,7 @@ Claus Bernet \& Olaf Radicke
 \item[1.und 2. Kapitel] Von der Notwendigkeit, das Kreuz Christi täglich zu
 tragen.\\
 .\dotfill \textit{Seite~\pageref{kap1}~und~\pageref{kap2}}\\
-\item[3. Kapitel] Erklärung des Kreuzes Christi; worin es besteht. etc.
+\item[3. Kapitel] Erklärung des Kreuzes Christi, worin es besteht. etc.
 \dotfill \textit{Seite~\pageref{kap3}}\\
 \item[4. Kapitel] Von den großen Wirkungen des Kreuzes.
 \dotfill \textit{Seite~\pageref{kap4}}\\
@@ -89,44 +155,43 @@ tragen.\\
 Modalität.
 \dotfill \textit{Seite~\pageref{kap5}~und~\pageref{kap6}}\\
 \item[7. bis 12. Kapitel] Vom Stolze, als der ersten Hauptleidenschaft des
-Menschen; dessen Ursprung, nähere Bestimmung und Unterscheidung.\\
+Menschen, dessen Ursprung, nähere Bestimmung und Unterscheidung.\\
 .\dotfill \textit{Seite~\pageref{kap7},~\pageref{kap8},~\pageref{kap9}, \pageref{kap10},~\pageref{kap11}~und~\pageref{kap12}}\\
 \item[13. Kapitel] Von der Gier, als der zweiten Hauptleidenschaft; nähere
-Bestimmung und Unterscheidung desselben.
+Bestimmung und Unterscheidung derselben.
 \dotfill \textit{Seite~\pageref{kap13}}\\
 \item[14. bis 18. Kapitel] Von der Verschwendung\footnote{\texttt{Im Ursprungstext steht
 das Wort 'Üppigkeit'. Das Wort wird in der heutigen Verwendung anders
 gebraucht und wurde desshalb - der Verständlichkeit halber - durch
-'Verschwendung' ersetzt.}}; worin sie besteht, und was für Unheil sie unter den
+'Verschwendung' ersetzt.}}, worin sie besteht, und was für Unheil sie unter den
 Menschen anrichtet.
-\dotfill \textit{Seite~\pageref{kap14},~\pageref{kap15},~\pageref{kap16},
+\\.\dotfill \textit{Seite~\pageref{kap14},~\pageref{kap15},~\pageref{kap16},
 \pageref{kap17}~und~\pageref{kap18}}\\
 \end{description}
 
-\include{kapitel_01} % CB  Korrektur
-\include{kapitel_02} % Heiko,  Korrektur
-\include{kapitel_03} % Heiko,CB  Korrektur
-\include{kapitel_04} % CB  Korrektur
-\include{kapitel_05} % CB  Korrektur
-\include{kapitel_06} % CB  Korrektur
-\include{kapitel_07} % CB  Korrektur
-\include{kapitel_08} % CB  Korrektur
-\include{kapitel_09} %   Korrektur
-\include{kapitel_10} % CB  Korrektur
-\include{kapitel_11} % CB  Korrektur
-\include{kapitel_12} % CB  Korrektur
-\include{kapitel_13} %   Korrektur
-\include{kapitel_14} % CB  Korrektur
-\include{kapitel_15} %   Korrektur
-\include{kapitel_16} % CB  Korrektur
-\include{kapitel_17} % CB  Korrektur
-\include{kapitel_18} % CB  Korrektur
+\include{kapitel_01}
+\include{kapitel_02}
+\include{kapitel_03}
+\include{kapitel_04}
+\include{kapitel_05}
+\include{kapitel_06}
+\include{kapitel_07}
+\include{kapitel_08}
+\include{kapitel_09}
+\include{kapitel_10}
+\include{kapitel_11}
+\include{kapitel_12}
+\include{kapitel_13}
+\include{kapitel_14}
+\include{kapitel_15}
+\include{kapitel_16}
+\include{kapitel_17}
+\include{kapitel_18}
 
 %Kapitelnummerierung für den Rest wieder einschalten.
 \setcounter{secnumdepth}{0}
 
-% \backmatter
-% \part{Extras}
+
 \part{Anhang}
 \chapter{Erläuterung}
 % Vielleicht eine bessere Überschrift??
@@ -143,7 +208,7 @@ gelesen werden (oder auch gar nicht).
 
 \chapter{Erläuterung zur Person und Autor William Penn} \label{ref:zum_autor_penn}
 % Vielleicht eine bessere Überschrift??
-\include{biographie_penn} % Toni  Korrektur
+\include{biographie_penn} 
 
 
 \chapter[Erläuterung zu "`Ohne Kreuz keine Krone"']{Erläuterung zu "`Ohne Kreuz keine Krone"' in der ersten deutschen Übersetzung von 1825} \label{ref:zum_werk}
@@ -153,53 +218,85 @@ gelesen werden (oder auch gar nicht).
 
 \chapter{Erläuterung zur Geschichte des Quakertums}
 \label{ref:entwicklung_quakertum}
-\include{quaker_geschichte} % Heiko,  Korrektur
+\include{quaker_geschichte}
 
 
-\include{uebersicht} % Kurt,  Korrektur
+\include{uebersicht} 
 
-% \include{glossar}
+\addcontentsline{toc}{chapter}{\protect\numberline{12}{Schlagwortverzeichnis}}
+\printindex
+
+\pagebreak
+\cleardoublepage
+
+\addcontentsline{toc}{chapter}{\protect\numberline{13}{Personenverzeichnis}}
+\printindex[person]
+
+\pagebreak
+\cleardoublepage
+
+\addcontentsline{toc}{chapter}{\protect\numberline{14}{Bibelstellen}}
+\printindex[bibel]
 
 \include{bib}
 
-\addcontentsline{toc}{chapter}{\protect\numberline{11}{Index}}
-% \addcontentsline{toc}{chapter}{Index}
-\printindex
-% \printindex{stichwot}{Stichwörter}
-% \printindex{person}{Personen}
-% \printindex{ort}{Orte}
 
-\pagestyle{plain}
-\addcontentsline{toc}{chapter}{\protect\numberline{12}{Über Claus Bernet}}
+\addcontentsline{toc}{chapter}{\protect\numberline{15}{Über Claus Bernet}}
 \include{claus_vita}
-% \newpage
-% \pagebreak
+
+
+\thispagestyle{empty}
+% ---- leere Seiten
+%\null\newpage
+%\clearpage
+%\thispagestyle{empty}
+% ---- leere Seiten
+%\null\newpage
+%\cleardoublepage
+%\shipout\null
+%\thispagestyle{empty}
+
+
+% \pagestyle{plain}
 % \cleardoublepage
-\null\newpage
+% \shipout\null
+
+% \pagestyle{plain}
+% \cleardoublepage
+% \shipout\null
+
 \vspace{\fill}
 
 \fbox{
 \parbox{9cm}{
 \addcontentsline{toc}{chapter}{Impressum}
-\textbf{Impressum:}\\
+\textbf{Impressum}\\
 \medskip
+Originaltitiel:\\
+\textit{No Cross No Crown}\\
+
+Cover-Bild:\\
+The Treaty of Penn with the Indians, von Benjamin West (1738–1820)\\
 
 Herausgeber:\\
 \copyright{} Olaf Radicke, \copyright{} Claus Bernet\\
 Alle Rechte vorbehalten\\
 \medskip
 
-München, \today \\
-Version 1.1 \\
+Augsburh, \today \\
+Version \versionsnummer \\
 \medskip
 
 Herstellung und Verlag:\\
 Books on Demand GmbH, Norderstedt\\
 
 
-ISBN: 978-3-8391-2608-0
+ISBN: 9 783739 217785
 }}
-\pagebreak 
+%\pagebreak 
+%\newpage
+% \cleardoublepage
+% \shipout\null
 
 \end{document}
 

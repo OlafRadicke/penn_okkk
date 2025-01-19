@@ -1,0 +1,15 @@
+*.aux
+*.backup
+*.adx
+*.and
+*.bdx
+*.bnd
+*.idx
+*.inx
+*.ilg
+*.ind
+*.log
+*.pdf
+*.toc
+*.tex~
+*.txt~
