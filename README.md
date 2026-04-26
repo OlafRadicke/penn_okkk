@@ -1,3 +1,7 @@
+# PROJECT IST VERSCHOBEN WORDEN
+
+Dieses Projekt wird künftig hier weiter gepflegt werden: [https://codeberg.org/OlafRadicke/penn_okkk](https://codeberg.org/OlafRadicke/penn_okkk)
+
 # Ohne Kreuz keine Krone #
 
 Das ist der Source Code des gleichnamigen Buches. 
